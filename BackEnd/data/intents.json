@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey there", "Good morning"],
+      "responses": ["Hello! How can I help you today?", "Hi there, what can I do for you?"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track order", "Order status please"],
+      "responses": ["Can you please provide your order ID? I'll track it for you."]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["I want a refund", "How do I return an item?", "Refund process"],
+      "responses": ["Refunds can be requested within 7 days of delivery. Do you want me to guide you?"]
+    },
+    {
+      "tag": "shipping",
+      "patterns": ["How long is delivery?", "Shipping time?", "Delivery options"],
+      "responses": ["Delivery usually takes 3 to 5 business days depending on your location."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Goodbye! Have a great day.", "See you soon!"]
+    }
+  ]
+}

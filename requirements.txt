@@ -1,0 +1,10 @@
+The chatbot will:
+Answer FAQs (refund policy, delivery time, etc.)
+
+Handle intents (e.g., check order status, cancel order, track delivery)
+
+Extract entities (order ID, customer name, product name)
+
+Maintain context in a conversation (multi-turn flow)
+
+Later: integrate with DB / web interface

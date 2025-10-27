@@ -1,0 +1,14 @@
+{
+  "frontend_user": {
+    "name": "Anirudh",
+    "preferred_product": "sneakers",
+    "recent_order": "ORD12345",
+    "location": "Bangalore"
+  },
+  "guest": {
+    "name": "Guest",
+    "preferred_product": "headphones",
+    "recent_order": "ORD00000",
+    "location": "Mumbai"
+  }
+}

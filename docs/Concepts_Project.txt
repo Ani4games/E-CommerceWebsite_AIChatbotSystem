@@ -1,0 +1,63 @@
+
+E-Com SupportBot: NLP Concept Map
+----------------------------------
+
+1. Text Preprocessing
+   - Concepts: Tokenization, stopword removal, lemmatization, normalization.
+   - Used In: Cleaning user input before feeding to ML models.
+   - Tools: NLTK, spaCy.
+
+2. Feature Extraction
+   - Concepts: Bag of Words, TF-IDF, word embeddings, sentence embeddings.
+   - Used In: Converting text to numerical vectors for model training.
+   - Tools: Scikit-learn, Hugging Face Transformers, Sentence-Transformers.
+
+3. Intent Classification
+   - Concepts: Supervised classification, intent tagging.
+   - Used In: Predicting what the user wants (refund, order_status, etc.).
+   - Tools: Logistic Regression, BERT, DistilBERT.
+
+4. Named Entity Recognition (NER)
+   - Concepts: Entity extraction, sequence labeling.
+   - Used In: Detecting order IDs, product names, user-specific details.
+   - Tools: spaCy, custom fine-tuning.
+
+5. Text Similarity & Semantic Search
+   - Concepts: Cosine similarity, semantic matching.
+   - Used In: Matching user query with FAQ or product database.
+   - Tools: Sentence-Transformers, Scikit-learn.
+
+6. Dialogue Management
+   - Concepts: Context tracking, state management, multi-turn dialogue.
+   - Used In: Managing conversation flow between user and bot.
+   - Tools: Custom Python logic or Rasa-like design.
+
+7. Response Generation
+   - Concepts: Template-based and retrieval-based responses.
+   - Used In: Generating or selecting chatbot replies.
+   - Tools: JSON response templates, optional LLM integration.
+
+8. Evaluation Metrics
+   - Concepts: Accuracy, precision, recall, F1-score.
+   - Used In: Evaluating performance of intent classifier and NER models.
+   - Tools: Scikit-learn.
+
+9. Data Annotation & Dataset Design
+   - Concepts: Labeling intents, designing training data.
+   - Used In: Building the chatbot’s core knowledge base (intents.json, faqs.csv).
+   - Tools: Manual labeling, CSV/JSON structuring.
+
+10. Integration & Deployment
+    - Concepts: REST APIs, backend-frontend communication, model serving.
+    - Used In: Integrating chatbot into E-commerce website frontend.
+    - Tools: FastAPI, Flask, React, Docker, Render/AWS.
+
+Summary:
+---------
+This project covers both traditional and modern NLP approaches:
+- Traditional: TF-IDF, Logistic Regression, Bag-of-Words.
+- Modern: BERT-based embeddings, semantic search.
+- Applied NLP Engineering: Deployment, data management, and web integration.
+
+By completion, E-Com SupportBot demonstrates a full NLP pipeline:
+User Query → Preprocessing → Intent Recognition → Entity Extraction → Response → API Integration.

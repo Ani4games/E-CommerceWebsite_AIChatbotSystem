@@ -1,0 +1,35 @@
+query,intent
+Hello,greeting
+Hi there,greeting
+Hey,greeting 
+how are you?,greeting
+Good morning,greeting
+Hello,greeting 
+anyone there?,greeting
+Hi,greeting 
+I need help,greeting
+I want to cancel my order,order_cancel
+Cancel my purchase please,order_cancel
+I don't want the product anymore,order_cancel
+Please cancel my order immediately,order_cancel
+Cancel item number 123,order_cancel
+How do I cancel my recent order?,order_cancel
+Where is my order?,track_order
+Track my shipment,track_order
+What's the delivery status?,track_order
+Has my order been shipped yet?,track_order
+When will I receive my order?,track_order
+Can you track order 456 for me?,track_order
+I want a refund,refund
+Give my money back,refund
+I haven't received my refund yet,refund
+Refund my order please,refund
+How do I get my refund?,refund
+I returned the item,refund
+but no refund,refund
+How do I pay?,payment_info
+Do you accept UPI?,payment_info
+What are the payment options?,payment_info
+Can I pay with credit card?,payment_info
+Do you support cash on delivery?,payment_info
+How do I update my payment method?,payment_info
