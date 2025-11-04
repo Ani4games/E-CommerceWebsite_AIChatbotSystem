@@ -24,3 +24,6 @@ async def chat_endpoint(request: Request):
     text = data.get("message", "")
     response = generate_response(user_id, text)
     return {"reply": response}
+@app.get("/")
+def root():
+    return {"message": "Chatbot backend is running! Visit /docs for API testing."}
