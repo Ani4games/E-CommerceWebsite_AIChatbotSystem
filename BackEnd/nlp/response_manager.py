@@ -25,7 +25,7 @@ def generate_response(user_id, text):
         elif intent == "return_item":
             base_response = "Returning your item now."
         elif intent == "payment_info":
-            base_response = "Here’s payment details."
+            base_response = "Here's payment details."
 
         final = personalize_response(user_id, intent, base_response)
         log_interaction(user_id, text, final, intent=intent) #Need some csv work to be done, then maybe it may work 
