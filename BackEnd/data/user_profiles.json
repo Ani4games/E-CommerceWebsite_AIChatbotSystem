@@ -10,5 +10,10 @@
     "preferred_product": "headphones",
     "recent_order": "ORD00000",
     "location": "Mumbai"
+  },
+  "user42": {
+    "name": "Priya",
+    "preferred_product": "jacket",
+    "recent_order": "#45678"
   }
 }
