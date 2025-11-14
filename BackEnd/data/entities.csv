@@ -6,3 +6,35 @@ Track my order for laptop	laptop	PRODUCT
 Cancel my purchase of watch	watch	PRODUCT
 Refund order 98765	98765	ORDER_ID
 Where is my order #54321	#54321	ORDER_ID
+Apply promo code SAVE20 at checkout	SAVE20	COUPON
+My card ending in 4242 was declined	4242	CARD_LAST4
+Deliver to 221B Baker Street	221B Baker Street	ADDRESS
+Ship to ZIP 94105	94105	ZIP_CODE
+Contact me at john.doe@example.com	john.doe@example.com	EMAIL
+Call me at +1-415-555-2671	+1-415-555-2671	PHONE
+Where is tracking ZX123456789US	ZX123456789US	TRACKING_ID
+I received invoice INV-2023-009	INV-2023-009	INVOICE
+Redeem gift card GC-50OFF	GC-50OFF	GIFT_CARD
+Order number 2023-5566	2023-5566	ORDER_ID
+My subscription SUB_998 is active	SUB_998	SUBSCRIPTION_ID
+Exchange size M to L	M	SIZE
+I want a red jacket	red	COLOR
+Add SKU SKU-98765 to the order	SKU-98765	SKU
+Pay with PayPal	PayPal	PAYMENT_METHOD
+Use Visa ending 1111	Visa	PAYMENT_METHOD
+Pickup at Store 42	Store 42	STORE
+Return ID RMA-556	RMA-556	RETURN_ID
+Courier is DHL Express	DHL Express	COURIER
+Expected delivery 2023-12-01	2023-12-01	DELIVERY_DATE
+Apply coupon WELCOME10	WELCOME10	COUPON
+Add to wishlist: leather wallet	leather wallet	PRODUCT
+My cart contains 3 items	3	QUANTITY
+Transaction TXN789012	TXN789012	TRANSACTION_ID
+Support ticket #7890	#7890	SUPPORT_TICKET
+Cancel order 889900	889900	ORDER_ID
+I want to buy sneakers size 10	sneakers	PRODUCT
+Is item smartwatch in stock?	smartwatch	PRODUCT
+Billing address: 10 Downing St	10 Downing St	ADDRESS
+Add promo code FREESHIP	FREESHIP	COUPON
+Replace defective charger	charger	PRODUCT
+Track parcel with tracking 1Z999AA10123456784	1Z999AA10123456784	TRACKING_ID

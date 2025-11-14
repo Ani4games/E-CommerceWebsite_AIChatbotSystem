@@ -18,7 +18,7 @@ const Chatbot = () => {
     setTimeout(() => {
       const botResponse = {
         sender: "bot",
-        text: "I'm still learning 😊 — but soon I’ll answer from the NLP model!",
+        text: "I'm still learning 😊 — but soon I'll answer from the NLP model!",
       };
       setMessages((prev) => [...prev, botResponse]);
     }, 600);

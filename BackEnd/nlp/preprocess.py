@@ -1,82 +1,64 @@
 import pandas as pd
+import os
 import re
-import nltk
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
 
-# Download necessary NLTK resources (only once)
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
+BASE_DIR = os.path.dirname(__file__)
+RAW_PATH = os.path.join(BASE_DIR, "../data/customer_queries.csv")
+OUT_PATH = os.path.join(BASE_DIR, "../data/cleaned_customer_queries.csv")
 
-# ==========================
-# 📂 2. Load Dataset
-# ==========================
-def load_data(file_path):
-    """
-    Reads a CSV file containing 'query' and 'response' columns.
-    """
-    df = pd.read_csv(file_path)
-    print(f"✅ Loaded dataset with {len(df)} records.")
-    return df
-
-
-# ==========================
-# 🧹 3. Text Cleaning
-# ==========================
 def clean_text(text):
-    """
-    Cleans text by removing unwanted symbols, URLs, and lowercasing.
-    """
-    text = re.sub(r"http\S+", "", text)        # Remove URLs
-    text = re.sub(r"[^a-zA-Z\s]", "", text)    # Remove special characters
-    text = text.lower()                        # Lowercase
-    text = re.sub(r"\s+", " ", text).strip()   # Remove extra spaces
+    text = str(text).lower()
+    text = re.sub(r"[^a-z0-9\s?#]", "", text)
+    text = re.sub(r"\s+", " ", text).strip()
     return text
 
+def map_intent(query):
+    q = query.lower()
 
-# ==========================
-# ✂️ 4. Tokenization, Stopwords, Lemmatization
-# ==========================
-def preprocess_text(text):
-    """
-    Tokenizes, removes stopwords, and lemmatizes text.
-    """
-    tokens = nltk.word_tokenize(text)
+    # Greeting
+    if any(g in q for g in ["hello", "hi", "hey", "good morning", "good evening"]):
+        return "greeting"
 
-    stop_words = set(stopwords.words("english"))
-    tokens = [t for t in tokens if t not in stop_words]
+    # Track order
+    if any(t in q for t in ["where is my order", "track", "shipment", "delivery status"]):
+        return "track_order"
 
-    lemmatizer = WordNetLemmatizer()
-    tokens = [lemmatizer.lemmatize(t) for t in tokens]
+    # Cancel order
+    if any(c in q for c in ["cancel", "cancel my order", "stop my order"]):
+        return "cancel_order"
 
-    return " ".join(tokens)
+    # Return item
+    if any(r in q for r in ["return", "replace"]):
+        return "return_item"
 
+    # Refund
+    if any(f in q for f in ["refund", "money back", "return my money"]):
+        return "refund_request"
 
-# ==========================
-# 💾 5. Main Preprocessing Pipeline
-# ==========================
-def preprocess_dataset(input_file, output_file):
-    """
-    Executes the full preprocessing pipeline:
-        - Load dataset
-        - Clean text
-        - Tokenize + lemmatize
-        - Save cleaned version
-    """
-    df = load_data(input_file)
-    df["clean_query"] = df["query"].apply(lambda x: preprocess_text(clean_text(str(x))))
-    df["clean_response"] = df["response"].apply(lambda x: preprocess_text(clean_text(str(x))))
-    df.to_csv(output_file, index=False)
-    print(f"💾 Cleaned data saved to {output_file}")
+    # Payment Info
+    if any(p in q for p in ["payment", "upi", "pay", "cod", "card"]):
+        return "payment_info"
 
+    return "other"   # fallback
 
-# ==========================
-# 🚀 6. Run Script
-# ==========================
+def preprocess():
+    df = pd.read_csv(RAW_PATH)
 
-## Problem 1: Can't find customer_queries.csv file
+    # Keep only query column
+    df = df[['query']]
+
+    # Clean text
+    df['query'] = df['query'].apply(clean_text)
+
+    # Add intent column
+    df['intent'] = df['query'].apply(map_intent)
+
+    # Save output
+    df.to_csv(OUT_PATH, index=False)
+    print(f"✔ Cleaned data saved to: {OUT_PATH}")
+
+    print("\nIntent distribution:")
+    print(df['intent'].value_counts())
+
 if __name__ == "__main__":
-    input_file = "../data/customer_queries.csv"        # 🔹 Raw dataset
-    output_file = "../data/cleaned_customer_queries.csv"  # 🔹 Processed output
-    preprocess_dataset(input_file, output_file)
+    preprocess()

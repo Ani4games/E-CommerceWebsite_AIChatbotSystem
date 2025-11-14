@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import ProductCard from '../Components/ProductCard';
+import ProductCard from '../Components/ProductPage';
 import { useContext } from 'react';
 import { CartContext } from '../context/CartContext';
 

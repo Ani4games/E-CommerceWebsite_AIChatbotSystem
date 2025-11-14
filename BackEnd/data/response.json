@@ -1,0 +1,31 @@
+{
+  "greeting": [
+    "Hello! How can I help you today?",
+    "Hi there! What can I assist you with?"
+  ],
+  "order_status": [
+    "Please share your order ID so I can check the status for you."
+  ],
+  "refund_request": [
+    "Refunds can be requested within 7 days of delivery. Would you like to start a refund request?"
+  ],
+  "shipping_info": [
+    "Delivery usually takes 3 - 5 business days depending on your location."
+  ],
+  "product_availability": [
+    "Let me check the availability for you. Which product are you referring to?"
+  ],
+  "payment_issue": [
+    "I'm sorry you're facing payment issues. Could you tell me what error you're seeing?"
+  ],
+  "cancellation_request": [
+    "I can help with that. Please provide your order ID to check if cancellation is still possible."
+  ],
+  "account_help": [
+    "No problem! What issue are you facing while logging in?"
+  ],
+  "goodbye": [
+    "Goodbye! Have a great day.",
+    "See you later!"
+  ]
+}
