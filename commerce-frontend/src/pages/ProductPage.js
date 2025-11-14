@@ -1,6 +1,6 @@
 // pages/ProductPage.js
 import React, { useState } from "react";
-import ProductCard from "./ProductPage";
+import ProductCard from "../Components/ProductCard";
 import "./ProductPage.css";
 
 const productsData = [

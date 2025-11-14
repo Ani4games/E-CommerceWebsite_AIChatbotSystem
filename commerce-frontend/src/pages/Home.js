@@ -1,9 +1,9 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import ProductCard from '../Components/ProductPage';
 import { useContext } from 'react';
 import { CartContext } from '../context/CartContext';
-
+import ProductCard from '../Components/ProductCard';
+// import './Home.css';
 const Home = () => {
   const [products, setProducts] = useState([]);
   const { addToCart } = useContext(CartContext);
