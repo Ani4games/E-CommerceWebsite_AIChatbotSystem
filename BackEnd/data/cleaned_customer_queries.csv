@@ -28,6 +28,7 @@ How do I get my refund?,refund
 I returned the item,refund
 but no refund,refund
 How do I pay?,payment_info
+Payment options available?,payment_info
 Do you accept UPI?,payment_info
 What are the payment options?,payment_info
 Can I pay with credit card?,payment_info
