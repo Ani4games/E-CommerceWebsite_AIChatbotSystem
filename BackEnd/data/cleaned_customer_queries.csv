@@ -1,36 +1,235 @@
 query,intent
 Hello,greeting
-Hi there,greeting
-Hey,greeting 
-how are you?,greeting
+Hi there!,greeting
+Hey!,greeting
+Hey buddy!,greeting
+Hey Buddy, greeting
+Hi!,greeting
 Good morning,greeting
-Hello,greeting 
-anyone there?,greeting
-Hi,greeting 
-I need help,greeting
-I want to cancel my order,order_cancel
-Cancel my purchase please,order_cancel
-I don't want the product anymore,order_cancel
-Please cancel my order immediately,order_cancel
-Cancel item number 123,order_cancel
-How do I cancel my recent order?,order_cancel
+Good evening,greeting
+Hey how are you?,greeting
+Hi bot!,greeting
+Greetings,greeting
+Howdy,greeting
+What's up?,greeting
+Hello there!,greeting
+What's up?,greeting
+You there?,greeting
+Can you help me?,greeting
+Good afternoon,greeting
+Good night,greeting
+Hiya,greeting
+Hey there,greeting
+Heyo,greeting
+Yo,greeting
+Sup,greeting
+How are you doing?,greeting
+How's it going?,greeting
+Nice to meet you,greeting
+Pleased to meet you,greeting
+Long time no see,greeting
+Hello again,greeting
+Hi again,greeting
+Hey friend,greeting
+Hello friend,greeting
+Morning,greeting
+Evening,greeting
+Hi everyone,greeting
+Hi all,greeting
+Hello everyone,greeting
+Greetings everyone,greeting
+Hey folks,greeting
 Where is my order?,track_order
-Track my shipment,track_order
-What's the delivery status?,track_order
-Has my order been shipped yet?,track_order
-When will I receive my order?,track_order
-Can you track order 456 for me?,track_order
-I want a refund,refund
-Give my money back,refund
-I haven't received my refund yet,refund
-Refund my order please,refund
-How do I get my refund?,refund
-I returned the item,refund
-but no refund,refund
+What's the status of my order?,track_order
+When will my order arrive?,track_order
+Where is my shipment?,track_order
+How long until delivery?,track_order
+Track my order number 12345,track_order
+What's my delivery date?,track_order
+Has my package left the warehouse?,track_order
+When can I expect my delivery?,track_order
+Check shipment status,track_order
+Where's my stuff?,track_order
+Is my order on its way?,track_order
+Update on my order please,track_order
+Give me tracking details,track_order
+My order status,track_order
+Track my package,track_order
+Can you track my order?,track_order
+I want to know my delivery status,track_order
+Is my parcel shipped?,track_order
+Check my order status,track_order
+Has my order been dispatched?,track_order
+Show me my order tracking info,track_order
+I want to track my recent order,track_order
+Track the shipment for me,track_order
+Where can I find my tracking number?,track_order
+How do I track my delivery?,track_order
+What's the current location of my package?,track_order
+Has my order been processed yet?,track_order
+When does my order ship?,track_order
+Is my order ready to ship?,track_order
+Can you provide shipping updates?,track_order
+How do I get tracking information?,track_order
+What time will my package arrive today?,track_order
+Is there a tracking link for my order?,track_order
+Can I see my shipment details?,track_order
+When was my order shipped?,track_order
+Where is my tracking information?,track_order
+How can I monitor my delivery?,track_order
+Did my order get sent out yet?,track_order
+What's taking so long with my order?,track_order
+Can you resend my tracking number?,track_order
+I want to cancel my order,cancel_order
+Cancel my purchase,cancel_order
+Can you cancel it?,cancel_order
+Stop my order,cancel_order
+Cancel this order please,cancel_order
+I made a mistake cancel my order,cancel_order
+Please cancel my order right away,cancel_order
+Can I cancel after payment?,cancel_order
+Cancel order #45678,cancel_order
+Cancel my recent purchase,cancel_order
+Abort my order,cancel_order
+Undo my order,cancel_order
+I need to cancel my order ASAP,cancel_order
+Remove my order from processing,cancel_order
+Cancel order immediately,cancel_order
+Please remove my order,cancel_order
+Can you please cancel my purchase?,cancel_order
+I want to cancel this transaction,cancel_order
+Halt my order,cancel_order
+Reverse my order,cancel_order
+I changed my mind cancel it,cancel_order
+Scratch that cancel my order,cancel_order
+Delete my order,cancel_order
+Withdraw my order,cancel_order
+I don't want this order anymore,cancel_order
+Discontinue my order,cancel_order
+Terminate my purchase,cancel_order
+Recall my order,cancel_order
+Take back my order,cancel_order
+Never mind cancel my order,cancel_order
+I want out of this order,cancel_order
+Cancel before it ships,cancel_order
+Stop processing my order,cancel_order
+I need a cancellation,cancel_order
+Reject my order,cancel_order
+Discard my purchase,cancel_order
+Cancel everything,cancel_order
+Wipe out my order,cancel_order
+I'm canceling my order right now,cancel_order
+I want to return my item,return_item
+How do I return this?,return_item
+Start a return,return_item
+Return process please,return_item
+Help me return a damaged product,return_item
+I received the wrong product return it,return_item
+I want to send it back,return_item
+What's your return policy?,return_item
+Return my shoes,return_item
+Return this jacket,return_item
+Can I return this item?,return_item
+How long do I have to return?,return_item
+What's your return window?,return_item
+Return my order please,return_item
+I want to exchange this,return_item
+This product is defective return it,return_item
+Can I get a replacement?,return_item
+How do I initiate a return?,return_item
+Return instructions please,return_item
+I need to send this back,return_item
+Return my purchase,return_item
+What's the return timeframe?,return_item
+How do I return my item?,return_item
+Return label needed,return_item
+Can I return without receipt?,return_item
+Return this defective item,return_item
+I want to return for a refund,return_item
+How to return my order?,return_item
+Return shipping cost?,return_item
+Do you accept returns?,return_item
+I want a refund,refund_request
+How do I get my money back?,refund_request
+Refund my order,refund_request
+When will I get my refund?,refund_request
+Start refund process,refund_request
+Return and refund please,refund_request
+Can I get a refund?,refund_request
+I didn't get my money yet,refund_request
+Issue refund for my order,refund_request
+Refund my payment now,refund_request
+I haven't received my refund yet,refund_request
+How long does refund processing take?,refund_request
+Can you speed up my refund?,refund_request
+Where's my refund status?,refund_request
+Refund my payment please,refund_request
+I need a full refund,refund_request
+Process my refund immediately,refund_request
+When will my refund be credited?,refund_request
+Can I get a refund for my purchase?,refund_request
+Refund this charge,refund_request
+I want my money back now,refund_request
+How do I claim my refund?,refund_request
+Initiate refund for order #12345,refund_request
+My refund is taking too long,refund_request
+Can you refund my payment?,refund_request
+I'm requesting a full refund,refund_request
+How do I track my refund?,refund_request
+Refund status please,refund_request
+Why hasn't my refund been processed?,refund_request
+Give me back my money,refund_request
+Can I get a refund without returning the item?,refund_request
+Refund my card immediately,refund_request
+How do I get reimbursed?,refund_request
+Check my refund status,refund_request
+I need a refund ASAP,refund_request
+I wish to make a payment,payment_info
+I want to pay,payment_info
+How do I complete my payment,payment_info
+Proceed to payment,payment_info
+Take me to checkout,payment_info
+Pay now,payment_info
+Where do I enter payment details,payment_info
+How can I pay for my order,payment_info
+Send me the payment link,payment_info
+Provide payment instructions,payment_info
+How do I update my payment method,payment_info
+How do I add a card,payment_info
+Change my payment method,payment_info
+Can I save my card for future payments,payment_info
+How to pay with PayPal,payment_info
+How to pay with Netbanking,payment_info
+Is Cash on Delivery available,payment_info
 How do I pay?,payment_info
 Payment options available?,payment_info
 Do you accept UPI?,payment_info
-What are the payment options?,payment_info
-Can I pay with credit card?,payment_info
-Do you support cash on delivery?,payment_info
-How do I update my payment method?,payment_info
+What are your payment methods?,payment_info
+Can I pay on delivery?,payment_info
+Do you take credit cards?,payment_info
+Is EMI available?,payment_info
+Describe the payment options,payment_info
+Mention payment methods?,payment_info
+Mention the available payment options?,payment_info
+Tell me about payment options,payment_info
+What's the payment process?,payment_info
+How can I make payment?,payment_info
+What payment methods do you accept?,payment_info
+Can I pay using a debit card?,payment_info
+Is there an option for installment payments?,payment_info
+How do I change my billing address?,payment_info
+Can I use multiple payment methods?,payment_info
+What should I do if my payment fails?,payment_info
+How do I view my payment history?,payment_info
+Can I get a receipt for my payment?,payment_info
+Is there a fee for using a credit card?,payment_info
+How do I apply a discount code during payment?,payment_info
+Can I pay in installments?,payment_info
+What happens if I miss a payment?,payment_info
+How do I cancel a payment?,payment_info
+Can I pay with cryptocurrency?,payment_info
+What is the payment confirmation process?,payment_info
+How long does it take for a payment to process?,payment_info
+Can I set up automatic payments?,payment_info
+What should I do if I forget my payment password?,payment_info
+Are there any payment promotions available?,payment_info

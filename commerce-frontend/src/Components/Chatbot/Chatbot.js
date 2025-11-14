@@ -1,30 +1,64 @@
-// Chatbot.js
-import React, { useState } from 'react';
-import ChatInput from './ChatInput';
-import ChatMessage from './ChatMessage';
+import React, { useState } from "react";
+import "./ChatBot.css";
 
 const Chatbot = () => {
+  const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
-    { sender: 'bot', text: 'Hello! How can I help you today?' }
+    { sender: "bot", text: "Hello 👋! How can I help you today?" },
   ]);
+  const [input, setInput] = useState("");
 
-  const sendMessage = (text) => {
-    setMessages([...messages, { sender: 'user', text }]);
+  const handleSend = () => {
+    if (!input.trim()) return;
 
-    // Here you can call your backend/AI
+    const userMessage = { sender: "user", text: input };
+    setMessages((prev) => [...prev, userMessage]);
+
+    // Dummy bot response (later replaced with backend)
     setTimeout(() => {
-      setMessages((prev) => [...prev, { sender: 'bot', text: `You said: ${text}` }]);
-    }, 500);
+      const botResponse = {
+        sender: "bot",
+        text: "I'm still learning 😊 — but soon I’ll answer from the NLP model!",
+      };
+      setMessages((prev) => [...prev, botResponse]);
+    }, 600);
+
+    setInput("");
   };
 
   return (
-    <div className="chatbot-container">
-      <div className="messages">
-        {messages.map((msg, index) => (
-          <ChatMessage key={index} message={msg} />
-        ))}
+    <div>
+      {/* Chat toggle button */}
+      <div className="chatbot-toggle" onClick={() => setIsOpen(!isOpen)}>
+        💬
       </div>
-      <ChatInput sendMessage={sendMessage} />
+
+      {/* Chat window */}
+      {isOpen && (
+        <div className="chatbot-window">
+          <div className="chatbot-header">ShopSmart Assistant 🤖</div>
+          <div className="chatbot-body">
+            {messages.map((msg, index) => (
+              <div
+                key={index}
+                className={`chat-message ${msg.sender === "user" ? "user" : "bot"}`}
+              >
+                {msg.text}
+              </div>
+            ))}
+          </div>
+          <div className="chatbot-input">
+            <input
+              type="text"
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              placeholder="Type a message..."
+              onKeyDown={(e) => e.key === "Enter" && handleSend()}
+            />
+            <button onClick={handleSend}>Send</button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

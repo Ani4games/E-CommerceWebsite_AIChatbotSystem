@@ -1,14 +1,18 @@
+// Components/Navbar.js
+import React from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-6 py-4 bg-gray-900 text-white">
-      <h1 className="text-xl font-bold">ShopSmart</h1>
-
-      <ul className="flex gap-6">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/cart">Cart</Link></li>
-      </ul>
+    <nav className="navbar">
+      <h2 className="logo">ShopSmart 🛍️</h2>
+      <div className="nav-links">
+        <Link to="/">Home</Link>
+        <Link to="/products">Products</Link>
+        <Link to="/cart">Cart</Link>
+        <Link to="/login">Login</Link>
+      </div>
     </nav>
   );
 };

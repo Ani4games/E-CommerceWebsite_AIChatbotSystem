@@ -17,6 +17,8 @@ from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
 import numpy as np
+from sklearn.linear_model import LogisticRegression
+model = LogisticRegression(max_iter=1000)
 
 # ===============================
 # ⚙️ Paths
@@ -137,32 +139,34 @@ def train_intent_model():
 # ===============================
 # 🔍 Predict Intent (GLOBAL)
 # ===============================
-def predict_intent(query):
-    import joblib
-    import numpy as np
-    import os
-
-    BASE_DIR = os.path.dirname(__file__)
-    MODEL_PATH = os.path.join(BASE_DIR, "../models/intent_model.pkl")
-    VECTORIZER_PATH = os.path.join(BASE_DIR, "../models/vectorizer.pkl")
-
+def predict_intent(text, confidence_threshold=0.55):
+    """
+    Predict intent for a single query with confidence-based safety.
+    Returns 'uncertain' if confidence is too low.
+    """
+    if not os.path.exists(MODEL_PATH) or not os.path.exists(VECTORIZER_PATH):
+        raise FileNotFoundError("Model files not found. Train the model first.")
+    
     model = joblib.load(MODEL_PATH)
     vectorizer = joblib.load(VECTORIZER_PATH)
-
-    X_query = vectorizer.transform([query])
-    probs = model.predict_proba(X_query)[0]
-    classes = model.classes_
-
-    top_idx = np.argmax(probs)
-    top_intent = classes[top_idx]
-    confidence = probs[top_idx]
-
-    all_scores = {cls: prob for cls, prob in zip(classes, probs)}
-
+    
+    text_vec = vectorizer.transform([text])
+    prediction = model.predict(text_vec)[0]
+    probabilities = model.predict_proba(text_vec)[0]
+    
+    # Get class scores
+    intent_scores = dict(zip(model.classes_, probabilities))
+    top_confidence = max(probabilities)
+    
+    # Mark uncertain intents
+    if top_confidence < confidence_threshold:
+        print(f"⚠️  Model uncertain (confidence={top_confidence:.2f}) for: '{text}'")
+        prediction = "uncertain"
+    
     return {
-        "intent": top_intent,
-        "confidence": confidence,
-        "all_scores": all_scores
+        'intent': prediction,
+        'confidence': top_confidence,
+        'all_scores': intent_scores
     }
 
 
