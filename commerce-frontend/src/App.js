@@ -5,7 +5,7 @@ import Chatbot from "./Components/Chatbot/Chatbot";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Cart from "./pages/Cart";
-import ProductCard from "./Components/ProductCard";
+import ProductPage from "./pages/ProductPage";
 import { CartProvider } from "./context/CartContext";
 
 const Home = () => {
@@ -84,7 +84,6 @@ function App() {
           <Footer />
         </div>
       </Router>
-    </CartProvider>
   );
 }
 

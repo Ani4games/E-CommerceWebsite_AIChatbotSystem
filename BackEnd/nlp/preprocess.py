@@ -1,19 +1,3 @@
-"""
-ML-Based E-Commerce Chatbot Project
-Week 2 - Data Preprocessing Script
-----------------------------------
-Goal:
-    1. Load customer query dataset
-    2. Clean & preprocess the text
-    3. Save cleaned output for NLP model training
-
-Author: Anirudh Paliwal
-Date: 2025-24-10
-"""
-
-# ==========================
-# 🔧 1. Import Libraries
-# ==========================
 import pandas as pd
 import re
 import nltk
