@@ -1,70 +1,39 @@
-/* Navbar.css */
 .navbar {
-  background: transparent;
-  border-bottom: 1px solid transparent;
-  padding: 18px 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  backdrop-filter: blur(6px);
-}
-
-.navbar-inner {
-  width: 100%;
-  max-width: var(--container-width);
+  background: white;
+  padding: 14px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
+  border-bottom: 1px solid #ddd;
 }
 
-/* logo */
-.navbar .logo {
-  font-weight: 600;
-  letter-spacing: -0.2px;
-  color: var(--accent);
-}
-
-/* nav links */
-.nav-links {
-  display: flex;
-  gap: 18px;
-  align-items: center;
-}
-
-.nav-links a {
-  color: var(--muted);
+.navbar-links a {
+  margin-left: 20px;
   text-decoration: none;
-  padding: 8px 10px;
-  border-radius: 8px;
-  transition: background var(--transition), color var(--transition);
+  font-weight: 600;
+  color: #555;
 }
 
-.nav-links a:hover {
-  color: var(--accent);
-  background: rgba(16,24,40,0.03);
+.navbar-links a:hover {
+  color: #1a73e8;
+}
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1a73e8;
+  text-decoration: none;
+}
+.navbar a {
+  text-decoration: none;
+  color: inherit;
 }
 
-/* cart badge */
-.cart-badge {
-  display:inline-flex;
-  align-items:center;
-  gap:8px;
-  background: transparent;
-  color: var(--muted);
-  padding: 6px 10px;
-  border-radius: 9px;
-  border: 1px solid transparent;
+.navbar a:hover {
+  text-decoration: underline; /* optional hover effect */
 }
-.cart-count {
-  background: var(--panel);
-  border: 1px solid var(--border);
-  color: var(--accent);
-  padding: 4px 8px;
-  border-radius: 999px;
-  font-weight:600;
-  font-size:0.85rem;
+
+/* If using <Link> from react-router */
+.navbar .nav-link {
+  text-decoration: none;
+  color: inherit;
 }
