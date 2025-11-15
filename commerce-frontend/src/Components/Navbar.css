@@ -1,19 +1,70 @@
+/* Navbar.css */
 .navbar {
-  background-color: #343a40;
-  color: white;
-  padding: 15px 40px;
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  padding: 18px 24px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(6px);
+}
+
+.navbar-inner {
+  width: 100%;
+  max-width: var(--container-width);
+  display: flex;
+  align-items: center;
   justify-content: space-between;
+  gap: 16px;
+}
+
+/* logo */
+.navbar .logo {
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  color: var(--accent);
+}
+
+/* nav links */
+.nav-links {
+  display: flex;
+  gap: 18px;
   align-items: center;
 }
 
 .nav-links a {
-  color: white;
-  margin: 0 15px;
+  color: var(--muted);
   text-decoration: none;
-  transition: 0.3s;
+  padding: 8px 10px;
+  border-radius: 8px;
+  transition: background var(--transition), color var(--transition);
 }
 
 .nav-links a:hover {
-  color: #00bcd4;
+  color: var(--accent);
+  background: rgba(16,24,40,0.03);
+}
+
+/* cart badge */
+.cart-badge {
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  background: transparent;
+  color: var(--muted);
+  padding: 6px 10px;
+  border-radius: 9px;
+  border: 1px solid transparent;
+}
+.cart-count {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  color: var(--accent);
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-weight:600;
+  font-size:0.85rem;
 }

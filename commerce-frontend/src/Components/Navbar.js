@@ -5,15 +5,19 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
+    // inside Navbar.js return
     <nav className="navbar">
-      <h2 className="logo">ShopSmart 🛍️</h2>
-      <div className="nav-links">
-        <Link to="/">Home</Link>
-        <Link to="/products">Products</Link>
-        <Link to="/cart">Cart</Link>
-        <Link to="/login">Login</Link>
+      <div className="navbar-inner">
+        <div className="logo">ShopSmart</div>
+        <div className="nav-links">
+          <Link to="/">Home</Link>
+          <Link to="/products">Products</Link>
+          <Link to="/cart">Cart</Link>
+          <Link to="/login">Login</Link>
+        </div>
       </div>
     </nav>
+
   );
 };
 
