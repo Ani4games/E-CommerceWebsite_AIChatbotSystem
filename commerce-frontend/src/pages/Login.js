@@ -1,12 +1,14 @@
 import React, { useState } from "react";
+import LoginForm from "../Components/LoginForm";
+import "./Login.css";
 
 const Login = () => {
   return (
-    <div style={{ padding: "20px" }}>
-      <h2>Login</h2>
-      <p>Login component loaded.</p>
+    <div className="login-page">
+      <LoginForm />
     </div>
   );
 };
+
 
 export default Login;
