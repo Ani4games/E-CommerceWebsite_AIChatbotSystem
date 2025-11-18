@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios"; 
 import "./ChatBot.css";
 
 const Chatbot = () => {
@@ -8,22 +9,44 @@ const Chatbot = () => {
   ]);
   const [input, setInput] = useState("");
 
-  const handleSend = () => {
+  // 🔵 Send message to backend and get chatbot response
+  const sendToBackend = async (userText) => {
+    try {
+      const res = await axios.post("http://127.0.0.1:8000/chat", {
+        user_id: "web_user",
+        message: userText,
+      });
+
+      return res.data.response;
+    } catch (error) {
+      return "⚠️ Error contacting server.";
+    }
+  };
+
+  const handleSend = async () => {
     if (!input.trim()) return;
 
     const userMessage = { sender: "user", text: input };
     setMessages((prev) => [...prev, userMessage]);
 
-    // Dummy bot response (later replaced with backend)
-    setTimeout(() => {
-      const botResponse = {
-        sender: "bot",
-        text: "I'm still learning 😊 — but soon I'll answer from the NLP model!",
-      };
-      setMessages((prev) => [...prev, botResponse]);
-    }, 600);
-
+    const userText = input;
     setInput("");
+
+    // 🟡 Show temporary "typing..." indicator
+    setMessages((prev) => [
+      ...prev,
+      { sender: "bot", text: "Typing..." },
+    ]);
+
+    // 🔵 Get response from backend
+    const botReply = await sendToBackend(userText);
+
+    // Replace "typing..." message with real reply
+    setMessages((prev) => {
+      const updated = [...prev];
+      updated.pop(); // remove "typing..."
+      return [...updated, { sender: "bot", text: botReply }];
+    });
   };
 
   return (
@@ -37,16 +60,20 @@ const Chatbot = () => {
       {isOpen && (
         <div className="chatbot-window">
           <div className="chatbot-header">ShopSmart Assistant 🤖</div>
+
           <div className="chatbot-body">
             {messages.map((msg, index) => (
               <div
                 key={index}
-                className={`chat-message ${msg.sender === "user" ? "user" : "bot"}`}
+                className={`chat-message ${
+                  msg.sender === "user" ? "user" : "bot"
+                }`}
               >
                 {msg.text}
               </div>
             ))}
           </div>
+
           <div className="chatbot-input">
             <input
               type="text"

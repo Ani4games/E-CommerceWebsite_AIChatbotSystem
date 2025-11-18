@@ -24,7 +24,7 @@ model = LogisticRegression(max_iter=1000)
 # ⚙️ Paths
 # ===============================
 BASE_DIR = os.path.dirname(__file__)
-DATA_PATH = os.path.join(BASE_DIR, "../data/cleaned_customer_queries.csv")
+DATA_PATH = os.path.join(BASE_DIR, "../data/intents.csv")
 MODEL_PATH = os.path.join(BASE_DIR, "../models/intent_model.pkl")
 VECTORIZER_PATH = os.path.join(BASE_DIR, "../models/vectorizer.pkl")
 

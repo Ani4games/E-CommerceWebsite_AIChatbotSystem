@@ -1,0 +1,471 @@
+query,intent
+"hello",greeting
+"hi there",greeting
+"hey chatbot",greeting
+"good morning",greeting
+"good evening",greeting
+"good afternoon",greeting
+"hello buddy",greeting
+"hey, how are you",greeting
+"hi, what's up",greeting
+"hello assistant",greeting
+"hey there",greeting
+"hi friend",greeting
+"yo",greeting
+"hi hi",greeting
+"hey again",greeting
+"hello again",greeting
+"hi! hope you’re good",greeting
+"hey! hope you're doing well",greeting
+"hiya",greeting
+"greetings",greeting
+"nice to meet you",greeting
+"pleased to meet you",greeting
+"hi, can we talk",greeting
+"hello, anyone there?",greeting
+"hey, are you online?",greeting
+"hi, i need some help",greeting
+"hello, i’m here",greeting
+"hey, i’m back",greeting
+"hi bot",greeting
+"hello bot",greeting
+"hey assistant",greeting
+"hi system",greeting
+"hey smart assistant",greeting
+"hey shop helper",greeting
+"hello shopbot",greeting
+"hi shopsmart",greeting
+"hello shopsmart",greeting
+"sup",greeting
+"what's up",greeting
+"howdy",greeting
+"yo bro",greeting
+"yo dude",greeting
+"hey dude",greeting
+"hi there friend",greeting
+"hello my guy",greeting
+"hey yo",greeting
+"hi folks",greeting
+"hey folks",greeting
+"hello folks",greeting
+"hello you",greeting
+"hey you",greeting
+"hi you",greeting
+"hi assistant, how’s it going?",greeting
+"hello assistant, how are you today?",greeting
+"good day",greeting
+"hey, good day",greeting
+"hi and good morning",greeting
+"hey friend, good evening",greeting
+"hi! long time no see",greeting
+"hello! long time",greeting
+"hey! long time",greeting
+"hey there! long time no chat",greeting
+"hi, happy to see you",greeting
+"hello! how have you been?",greeting
+"hi! how’s everything?",greeting
+"hey, how’s your day?",greeting
+"hi! hope you're doing great",greeting
+"hello my friend",greeting
+"good mornin",greeting
+"good evenin",greeting
+"gm",greeting
+"ga",greeting
+"ge",greeting
+"hey pal",greeting
+"hello pal",greeting
+"hi pal",greeting
+"hi partner",greeting
+"hey partner",greeting
+"oh hello",greeting
+"oh hi",greeting
+"hey there buddy",greeting
+"hi team",greeting
+"hello team",greeting
+"hey team",greeting
+"yo chatbot",greeting
+"hi machine",greeting
+"hello machine",greeting
+"hey machine",greeting
+"hi my assistant",greeting
+"hey my assistant",greeting
+"hello my assistant",greeting
+"hello system",greeting
+"hi system",greeting
+"hey system",greeting
+"hi all",greeting
+"hello all",greeting
+"hey all",greeting
+"hiya there",greeting
+"heyya",greeting
+"heyy",greeting
+"hii",greeting
+"hellooo",greeting
+"heyy there",greeting
+"hii bot",greeting
+"hey buddy",greeting
+"hi buddy",greeting
+"hello buddy, how are you?",greeting
+"hello shop assistant",greeting
+"hi shop assistant",greeting
+"hey shop assistant",greeting
+"hi, checking in",greeting
+"hello, checking in",greeting
+"hey, just checking in",greeting
+"hi there, quick hello",greeting
+"hello! good to see you",greeting
+"hey there! good to see you",greeting
+"hi there! nice seeing you",greeting
+"hello, hope you're fine",greeting
+"hi there, hope all is well",greeting
+"hey! hope all's good",greeting
+"hello! what's good",greeting
+"hi champ",greeting
+"hey champ",greeting
+"hi legend",greeting
+"hello legend",greeting
+"hey genius",greeting
+"hi genius",greeting
+"hello genius",greeting
+"hey assistant, hello",greeting
+"hi, i’m here again",greeting
+"hello, i’ve returned",greeting
+"hey, i’m back again",greeting
+"hello world",greeting
+"hi world",greeting
+"hey world",greeting
+"hi mate",greeting
+"hey mate",greeting
+"hello mate",greeting
+"hey there, mate",greeting
+"hi friend!",greeting
+"hello friend!",greeting
+"hey friend!",greeting
+"hi friend!!",greeting
+"hello friend!!",greeting
+"hey friend!!",greeting
+"hi! how’s your morning going?",greeting
+"hello! hope your day is nice",greeting
+"hey! hope your day is good",greeting
+"hi assistant, how’s life?",greeting
+"hello, how’s everything going?",greeting
+"yo assistant",greeting
+"hi, can you hear me?",greeting
+"hello, can you hear me?",greeting
+"hey can you hear me?",greeting
+"hi there, you awake?",greeting
+"hello there, you awake?",greeting
+"hey there, awake?",greeting
+"hi again assistant",greeting
+"hello again assistant",greeting
+"hey again assistant",greeting
+"hello shopbot!",greeting
+"hi shopbot!",greeting
+"hey shopbot!",greeting
+"hi, howdy?",greeting
+"hey hey hey",greeting
+"hi hello",greeting
+"hello hi",greeting
+"sup bot",greeting
+"yo bot",greeting
+"hi shop helper",greeting
+"hello shop helper",greeting
+"hey shop helper",greeting
+"hello sweet bot",greeting
+"hi sweet bot",greeting
+"hey sweet bot",greeting
+"hello dear bot",greeting
+"hi dear bot",greeting
+"hey dear bot",greeting
+"hi my friend",greeting
+"hello my friend",greeting
+"hey my friend",greeting
+"hi assistant!",greeting
+"hello assistant!",greeting
+"hey assistant!",greeting
+"hi! how are things?",greeting
+"hello! how are things going?",greeting
+"hey! how’s everything going?",greeting
+"hi just saying hello",greeting
+"hello just saying hi",greeting
+"hey, just saying hello",greeting
+"hi, hope you’re having a good day",greeting
+"hello, hope you're having a good day",greeting
+"hey! hope you're having a good day",greeting
+"hello! what's new?",greeting
+"hi! what's new?",greeting
+"hey! what's new?",greeting
+"hi nice to chat",greeting
+"hello nice to chat",greeting
+"hey nice to chat",greeting
+"hey, good morning assistant",greeting
+"hi, good morning assistant",greeting
+"hello, good morning assistant",greeting
+"hi sunshine",greeting
+"hello sunshine",greeting
+"hey sunshine",greeting
+"hey robot friend",greeting
+"hi robot friend",greeting
+"hello robot friend",greeting
+"hi there buddy",greeting
+"hello there buddy",greeting
+
+"where is my order?",track_order
+"track my order",track_order
+"track my shipment",track_order
+"show delivery status",track_order
+"where is my package?",track_order
+"package status?",track_order
+"check delivery for me",track_order
+"where’s my delivery?",track_order
+"is my parcel dispatched?",track_order
+"locate my order",track_order
+"has my order shipped?",track_order
+"track order id 1234",track_order
+"track order 98765 please",track_order
+"update on my delivery",track_order
+"when will my package arrive?",track_order
+"expected delivery time?",track_order
+"delivery seems late",track_order
+"is my shipment on the way?",track_order
+"track item now",track_order
+"track my latest order",track_order
+"shipment status check",track_order
+"delivery update needed",track_order
+"track my parcel please",track_order
+"any update on shipment?",track_order
+"order tracking request",track_order
+"track my order asap",track_order
+"help me track delivery",track_order
+"order is delayed",track_order
+"why is delivery late?",track_order
+"package hasn't arrived",track_order
+"tracking code check",track_order
+"track my courier",track_order
+"confirm shipping status",track_order
+"delivery details needed",track_order
+"update shipment location",track_order
+"find my package",track_order
+"show me delivery updates",track_order
+"delivery update for my order",track_order
+"shipment location?",track_order
+
+"cancel my order",cancel_order
+"i want to cancel order",cancel_order
+"stop my order",cancel_order
+"please cancel my purchase",cancel_order
+"cancel the item",cancel_order
+"cancel it",cancel_order
+"cancel order id 123",cancel_order
+"cancel my recent order",cancel_order
+"i accidentally ordered cancel it",cancel_order
+"cancel this order asap",cancel_order
+"how can i cancel?",cancel_order
+"want to stop delivery",cancel_order
+"cancel my booking",cancel_order
+"cancel the product",cancel_order
+"i need to cancel something",cancel_order
+"cancel ASAP",cancel_order
+"cancel my last purchase",cancel_order
+"stop the shipment",cancel_order
+"cancel now please",cancel_order
+"i ordered wrong thing cancel",cancel_order
+"i changed my mind cancel",cancel_order
+"cancel immediately",cancel_order
+"need cancellation help",cancel_order
+"cancel my order request",cancel_order
+"cancel goods",cancel_order
+"cancel that item",cancel_order
+"order cancellation support",cancel_order
+"decline my order",cancel_order
+"stop sending my order",cancel_order
+"cancel and refund",cancel_order
+"cancel placed order",cancel_order
+"cancel placed item",cancel_order
+"abort order",cancel_order
+"please abort purchase",cancel_order
+"cancel whole order",cancel_order
+"cancel this request",cancel_order
+"need to cancel quickly",cancel_order
+"cancel order urgently",cancel_order
+"my kid ordered cancel it",cancel_order
+"accidental purchase cancel",cancel_order
+"i want to return my item",return_item
+"return my package",return_item
+"start a return request",return_item
+"how to return product?",return_item
+"i need to return something",return_item
+"please help me return this",return_item
+"i want to exchange this",return_item
+"i received wrong item return",return_item
+"return policy?",return_item
+"process a return",return_item
+"return item ASAP",return_item
+"need to return my purchase",return_item
+"return this product",return_item
+"return the order now",return_item
+"start item return",return_item
+"initiate a return request",return_item
+"want to return shoes",return_item
+"help me return product",return_item
+"how do i return this?",return_item
+"file return request",return_item
+"begin return process",return_item
+"i want to replace item",return_item
+"want replacement please",return_item
+"replace this item",return_item
+"wrong size return",return_item
+"wrong color return",return_item
+"damaged product return",return_item
+"return this defective item",return_item
+"item return needed",return_item
+"need exchange",return_item
+"return window?",return_item
+"request item return",return_item
+"submit return request",return_item
+"return instructions?",return_item
+"return enquiry",return_item
+"i want replacement of item",return_item
+
+"replace my order",return_item
+"need return label",return_item
+"send me return label",return_item
+"i want a refund",refund_request
+"give me my money back",refund_request
+"refund my order",refund_request
+"issue my refund please",refund_request
+"i need my money returned",refund_request
+"requesting refund",refund_request
+"where is my refund?",refund_request
+"refund status?",refund_request
+"start refund process",refund_request
+"refund the item",refund_request
+"i want a refund for this product",refund_request
+"money not refunded yet",refund_request
+"refund not received",refund_request
+"why is refund delayed?",refund_request
+"refund my payment asap",refund_request
+"refund request please",refund_request
+"initiate refund",refund_request
+"return and refund request",refund_request
+"need quick refund",refund_request
+"refund for damaged item",refund_request
+"refund for wrong product",refund_request
+"refund for defective item",refund_request
+"refund this immediately",refund_request
+"refund help needed",refund_request
+"refund inquiry",refund_request
+"refund amount missing",refund_request
+"refund transaction pending",refund_request
+"refund is taking too long",refund_request
+"refund confirmation?",refund_request
+"refund me now!",refund_request
+"want cashback/refund",refund_request
+"refund procedure?",refund_request
+"how do i get refund?",refund_request
+"refund eligibility?",refund_request
+"refund for cancelled order",refund_request
+"refund for return item",refund_request
+"refund instructions?",refund_request
+"refund requested earlier",refund_request
+"i still need my refund",refund_request
+"waiting for refund",refund_request
+"process refund soon",refund_request
+"process my refund now",refund_request
+"refund stuck?",refund_request
+"refund reinitiate",refund_request
+"refund follow-up",refund_request
+"refund complaint",refund_request
+"resolve refund issue",refund_request
+"refund for part payment",refund_request
+"money not credited yet",refund_request
+
+"how do i pay?",payment_info
+"payment options?",payment_info
+"what payment methods?",payment_info
+"can i pay using upi?",payment_info
+"do you accept card?",payment_info
+"cod available?",payment_info
+"cash on delivery?",payment_info
+"upi or card?",payment_info
+"netbanking available?",payment_info
+"payment failed",payment_info
+"payment not going through",payment_info
+"payment still processing",payment_info
+"try another payment method?",payment_info
+"why is payment failing?",payment_info
+"help with payment",payment_info
+"make payment now",payment_info
+"proceed to payment",payment_info
+"payment instructions?",payment_info
+"add payment details",payment_info
+"can i change payment method?",payment_info
+"refund goes to which payment?",payment_info
+"is emi available?",payment_info
+"is wallet payment allowed?",payment_info
+"payment verification?",payment_info
+"payment confirmation?",payment_info
+"enter card details?",payment_info
+"payment pending",payment_info
+"payment timeout",payment_info
+"secure payment?",payment_info
+"online payment?",payment_info
+"how to complete payment?",payment_info
+"payment declined",payment_info
+"upi not working",payment_info
+"card not working",payment_info
+"payment stuck at 99%",payment_info
+"payment blocked",payment_info
+"transaction failed",payment_info
+"try different card?",payment_info
+"pay using debit card?",payment_info
+"pay using credit card?",payment_info
+"processing payment…",payment_info
+"payment gateway issue",payment_info
+"which wallets accepted?",payment_info
+"yesbank upi supported?",payment_info
+"google pay available?",payment_info
+"amazon pay available?",payment_info
+"any extra charges?",payment_info
+"is payment safe?",payment_info
+"need payment help?",payment_info
+  
+"i need help?",other
+"tell me more?",other
+"what is your name?",other
+"who are you?",other
+"how do you work?",other
+"explain your features?",other
+"what can you do?",other
+"how can you assist me?",other
+"help me with something?",other
+"i have a question?",other
+"i am confused?",other
+"i am stuck?",other
+"need assistance?",other
+"i need support?",other
+"what is this platform?",other
+"what do you offer?",other
+"show me options?",other
+"i need more info?",other
+"how does this app work?",other
+"how to use this app?",other
+"guide me?",other
+"tell me instructions?",other
+"i need clarity?",other
+"give me details?",other
+"explain this please?",other
+"what’s happening?",other
+"not sure what to do?",other
+"please explain?",other
+"help me understand?",other
+"why is this happening?",other
+"what are your services?",other
+"help menu?",other
+"how can i begin?",other
+"how do i start?",other
+"help me navigate?",other
+"show help section?",other
+"what do i click?",other
+"tell me options?",other
+"i need direction?",other
