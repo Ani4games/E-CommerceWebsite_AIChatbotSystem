@@ -210,262 +210,1369 @@ query,intent
 "hi there buddy",greeting
 "hello there buddy",greeting
 
-"where is my order?",track_order
-"track my order",track_order
-"track my shipment",track_order
-"show delivery status",track_order
-"where is my package?",track_order
-"package status?",track_order
-"check delivery for me",track_order
-"where’s my delivery?",track_order
-"is my parcel dispatched?",track_order
-"locate my order",track_order
-"has my order shipped?",track_order
-"track order id 1234",track_order
-"track order 98765 please",track_order
-"update on my delivery",track_order
-"when will my package arrive?",track_order
-"expected delivery time?",track_order
-"delivery seems late",track_order
-"is my shipment on the way?",track_order
-"track item now",track_order
-"track my latest order",track_order
-"shipment status check",track_order
-"delivery update needed",track_order
-"track my parcel please",track_order
-"any update on shipment?",track_order
-"order tracking request",track_order
-"track my order asap",track_order
-"help me track delivery",track_order
-"order is delayed",track_order
-"why is delivery late?",track_order
-"package hasn't arrived",track_order
-"tracking code check",track_order
-"track my courier",track_order
-"confirm shipping status",track_order
-"delivery details needed",track_order
-"update shipment location",track_order
-"find my package",track_order
-"show me delivery updates",track_order
-"delivery update for my order",track_order
-"shipment location?",track_order
+"Where is my order right now?",track_order
+"Can you track my package?",track_order
+"When will my delivery arrive?",track_order
+"Help me check my order status",track_order
+"I want to know where my parcel is",track_order
+"Track my shipment please",track_order
+"Has my order been dispatched?",track_order
+"Is my order shipped yet?",track_order
+"Show me the delivery status",track_order
+"Give me an update on my order",track_order
+"I want to see where my package has reached",track_order
+"Can you tell me my order status?",track_order
+"When is my order expected to arrive?",track_order
+"How long until my order gets delivered?",track_order
+"Track order ID 123 for me",track_order
+"My delivery seems late, check it",track_order
+"Is my package out for delivery?",track_order
+"Update me on my shipment",track_order
+"Where has my order reached?",track_order
+"Is my parcel in transit?",track_order
+"Can I get shipment tracking info?",track_order
+"Please check if my order is on the way",track_order
+"Tell me if my order has been dispatched",track_order
+"Has the courier picked up my order?",track_order
+"Track my recent order",track_order
+"Why is my order taking so long?",track_order
+"Show my shipping details",track_order
+"Has my delivery started moving?",track_order
+"Is my order near my city?",track_order
+"Where is the courier for my order?",track_order
+"I need tracking information",track_order
+"Help me locate my order",track_order
+"My package is delayed, check status",track_order
+"When will I get my parcel?",track_order
+"Let me know delivery progress",track_order
+"Is my order arriving today?",track_order
+"Is my shipment delayed?",track_order
+"Track my current delivery",track_order
+"Give me the latest tracking update",track_order
+"Where exactly is my shipment right now?",track_order
+"Can you show me the live status of my order?",track_order
+"I want the current tracking update",track_order
+"Is my order still in transit?",track_order
+"Tell me if my delivery has been shipped",track_order
+"When should I expect my package?",track_order
+"Check where my order has reached currently",track_order
+"Has my item been packed and shipped?",track_order
+"Track this order for me please",track_order
+"Give me a status update for my order",track_order
+"Why is my delivery delayed?",track_order
+"Is my package already dispatched?",track_order
+"Find my package location",track_order
+"Can you see the current movement of my order?",track_order
+"Is my order stuck somewhere?",track_order
+"Where is my parcel right now?",track_order
+"Can you tell me if my package left the warehouse?",track_order
+"What’s the delivery timeline for my order?",track_order
+"Update me on where my shipment is",track_order
+"I want delivery tracking information",track_order
+"Is my order coming today?",track_order
+"Has the delivery boy picked up my parcel?",track_order
+"Why hasn't my package moved yet?",track_order
+"Show me where the courier is",track_order
+"Please get me the latest shipment information",track_order
+"Where did my order reach recently?",track_order
+"Tell me the exact delivery status",track_order
+"Check if my parcel is close by",track_order
+"I want to track my order across locations",track_order
+"See if my package is out for dispatch",track_order
+"Give me tracking details for my recent purchase",track_order
+"When will the courier arrive?",track_order
+"Is my package reaching today?",track_order
+"Show me tracking for order no. 453",track_order
+"Is my package delayed in transit?",track_order
+"Find out if my delivery is scheduled",track_order
+"Where is the delivery partner now?",track_order
+"Tell me if my parcel is moving",track_order
+"Is there any update on my shipment?",track_order
+"Check the expected delivery date",track_order
+"Where is my order stuck?",track_order
+"I want to know the logistics status",track_order
+"When can I expect my package to show up?",track_order
+"Track the shipment status for me",track_order
+"Is my package near my area?",track_order
+"Why hasn't my order been shipped yet?",track_order
+"Has the courier scanned my parcel?",track_order
+"Track the route of my package",track_order
+"Give me the current checkpoint of my order",track_order
+"Is my shipment waiting for pickup?",track_order
+"When is the courier delivering my order?",track_order
+"Check if my item is ready for shipping",track_order
+"Show me parcel movement history",track_order
+"Tell me the predicted delivery day",track_order
+"Is my order in the city now?",track_order
+"Show me the courier status",track_order
+"Is my package leaving the facility?",track_order
+"Help me find the delivery schedule",track_order
+"Tell me the status of my last purchase",track_order
+"Did my parcel leave the distribution center?",track_order
+"Where did my courier last check in?",track_order
+"Track my delivery timeline",track_order
+"Check my shipping scan updates",track_order
+"Is my order still at the seller’s hub?",track_order
+"Does the system show any movement for my parcel?",track_order
+"Provide the route information for my order",track_order
+"Can you fetch the logistics update?",track_order
+"Tell me why my order hasn't arrived",track_order
+"I need a real-time tracking update",track_order
+"Find my order in the tracking system",track_order
+"Tell me if it's out for delivery",track_order
+"Is the courier on the way to my address?",track_order
+"What’s happening with my parcel now?",track_order
+"Is my order in the warehouse?",track_order
+"Check whether the delivery is postponed",track_order
+"Track my online order now",track_order
+"Why is the tracking not updating?",track_order
+"When is my shipment likely to be delivered?",track_order
+"Did the courier receive my item?",track_order
+"Where is my dispatched order?",track_order
+"Notify me of the last scanned location",track_order
+"Update the current parcel checkpoint",track_order
+"Why is my package still pending?",track_order
+"I want delivery confirmation details",track_order
+"How far is my package?",track_order
+"Is the courier near my place?",track_order
+"Can you verify shipping progress?",track_order
+"When will the package reach my city?",track_order
+"Show details of my ongoing shipment",track_order
+"Where is my box right now?",track_order
+"Has the parcel started transit?",track_order
+"Tell me order transit updates",track_order
+"Check movement history for my order",track_order
+"Track my product delivery",track_order
+"I want ETA for my order",track_order
+"When will it finally get delivered?",track_order
+"Check if it's arriving tomorrow",track_order
+"Has the delivery guy started?",track_order
+"Where is my order exactly?",track_order
+"Has it been marked as shipped?",track_order
+"Let me know every update on my parcel",track_order
+"Check the dispatch timestamp",track_order
+"Has the courier taken charge of my package?",track_order
+"Show the last location ping",track_order
+"I want to review shipment updates",track_order
+"Track the progress of my delivery",track_order
+"Why is my package not here yet?",track_order
+"Tell me when the order left the warehouse",track_order
+"Where is my delivery partner?",track_order
+"Give me the timeline of my shipment",track_order
+"Has my product been forwarded for delivery?",track_order
+"Check the live tracking status",track_order
+"Why is my order pending dispatch?",track_order
+"Did it leave the seller center?",track_order
+"Check if delivery is scheduled today",track_order
+"Tell me if my parcel is in transit currently",track_order
+"Track order no. 877 for me",track_order
+"Give me the latest courier scan",track_order
+"Is my shipment arriving soon?",track_order
+"Show me the estimated arrival time",track_order
+"How long will it take for my order to reach?",track_order
+"Has the courier attempted delivery?",track_order
+"Is my delivery rescheduled?",track_order
+"Look up the delivery path",track_order
+"Tell me if my package is held up",track_order
+"Where is my parcel heading next?",track_order
+"Did my shipment reach the sorting center?",track_order
+"Has my parcel arrived in my city?",track_order
+"Track my current order movement",track_order
+"Is the courier rider assigned?",track_order
+"Show the status of my dispatched item",track_order
+"Give me my shipment progress",track_order
+"Has my parcel cleared all checkpoints?",track_order
+"Check my order’s delivery route",track_order
+"Where is my shipment in the pipeline?",track_order
+"Tell me if my item is at the hub",track_order
+"I want to know my courier's exact location",track_order
+"Did the delivery guy pick up my order yet?",track_order
+"Is my order arriving before evening?",track_order
+"Why does the tracking show no new update?",track_order
+"Find out if my parcel can be delivered today",track_order
+"Show me the latest timestamp for my package",track_order
+"Track the delivery flow for my parcel",track_order
+"Check where my package is travelling",track_order
+"Is the shipment delayed due to logistics?",track_order
+"Tell me if my order is about to arrive",track_order
+"Has the order reached the destination center?",track_order
+"Tell me the status of my shipping ID",track_order
+"Did the courier attempt delivery earlier?",track_order
+"Where is my item in the tracking system?",track_order
+"Update my shipment’s current scan",track_order
+"Check if there are any delays in delivery",track_order
+"Is my parcel stuck at customs?",track_order
+"Can you check if my package is being delivered?",track_order
+"Has the courier left for delivery?",track_order
+"Where is the shipment at the moment?",track_order
+"Tell me expected delivery time slot",track_order
+"I need shipment location details",track_order
+"Please check if my item is close to delivery",track_order
+"Is my order almost delivered?",track_order
+"Look up my package journey",track_order
+"Why hasn’t my parcel been dispatched?",track_order
+"Give me detailed tracking information",track_order
+"Tell me the last scanned event",track_order
+"Track my order movement today",track_order
+"Show me where the order stopped last",track_order
+"Has my package reached the nearest hub?",track_order
+"Find out the current status of my shipment",track_order
+"Check when the courier will come",track_order
 
-"cancel my order",cancel_order
-"i want to cancel order",cancel_order
-"stop my order",cancel_order
-"please cancel my purchase",cancel_order
-"cancel the item",cancel_order
-"cancel it",cancel_order
-"cancel order id 123",cancel_order
-"cancel my recent order",cancel_order
-"i accidentally ordered cancel it",cancel_order
-"cancel this order asap",cancel_order
-"how can i cancel?",cancel_order
-"want to stop delivery",cancel_order
-"cancel my booking",cancel_order
-"cancel the product",cancel_order
-"i need to cancel something",cancel_order
-"cancel ASAP",cancel_order
-"cancel my last purchase",cancel_order
-"stop the shipment",cancel_order
-"cancel now please",cancel_order
-"i ordered wrong thing cancel",cancel_order
-"i changed my mind cancel",cancel_order
-"cancel immediately",cancel_order
-"need cancellation help",cancel_order
-"cancel my order request",cancel_order
-"cancel goods",cancel_order
-"cancel that item",cancel_order
-"order cancellation support",cancel_order
-"decline my order",cancel_order
-"stop sending my order",cancel_order
-"cancel and refund",cancel_order
-"cancel placed order",cancel_order
-"cancel placed item",cancel_order
-"abort order",cancel_order
-"please abort purchase",cancel_order
-"cancel whole order",cancel_order
-"cancel this request",cancel_order
-"need to cancel quickly",cancel_order
-"cancel order urgently",cancel_order
-"my kid ordered cancel it",cancel_order
-"accidental purchase cancel",cancel_order
-"i want to return my item",return_item
-"return my package",return_item
-"start a return request",return_item
-"how to return product?",return_item
-"i need to return something",return_item
-"please help me return this",return_item
-"i want to exchange this",return_item
-"i received wrong item return",return_item
-"return policy?",return_item
-"process a return",return_item
-"return item ASAP",return_item
-"need to return my purchase",return_item
-"return this product",return_item
-"return the order now",return_item
-"start item return",return_item
-"initiate a return request",return_item
-"want to return shoes",return_item
-"help me return product",return_item
-"how do i return this?",return_item
-"file return request",return_item
-"begin return process",return_item
-"i want to replace item",return_item
-"want replacement please",return_item
-"replace this item",return_item
-"wrong size return",return_item
-"wrong color return",return_item
-"damaged product return",return_item
-"return this defective item",return_item
-"item return needed",return_item
-"need exchange",return_item
-"return window?",return_item
-"request item return",return_item
-"submit return request",return_item
-"return instructions?",return_item
-"return enquiry",return_item
-"i want replacement of item",return_item
 
-"replace my order",return_item
-"need return label",return_item
-"send me return label",return_item
 "i want a refund",refund_request
-"give me my money back",refund_request
-"refund my order",refund_request
-"issue my refund please",refund_request
-"i need my money returned",refund_request
-"requesting refund",refund_request
-"where is my refund?",refund_request
-"refund status?",refund_request
-"start refund process",refund_request
-"refund the item",refund_request
-"i want a refund for this product",refund_request
-"money not refunded yet",refund_request
-"refund not received",refund_request
-"why is refund delayed?",refund_request
-"refund my payment asap",refund_request
-"refund request please",refund_request
-"initiate refund",refund_request
-"return and refund request",refund_request
-"need quick refund",refund_request
-"refund for damaged item",refund_request
-"refund for wrong product",refund_request
-"refund for defective item",refund_request
-"refund this immediately",refund_request
-"refund help needed",refund_request
-"refund inquiry",refund_request
-"refund amount missing",refund_request
-"refund transaction pending",refund_request
-"refund is taking too long",refund_request
-"refund confirmation?",refund_request
-"refund me now!",refund_request
-"want cashback/refund",refund_request
-"refund procedure?",refund_request
-"how do i get refund?",refund_request
-"refund eligibility?",refund_request
+"please refund my money",refund_request
+"i need my money back",refund_request
+"how do i get a refund",refund_request
+"can you refund this order",refund_request
+"refund my order please",refund_request
+"i want to initiate a refund",refund_request
+"start a refund for my item",refund_request
+"i would like to request a refund",refund_request
+"my order is wrong, refund it",refund_request
+"i returned the product, when will i get refund",refund_request
+"refund not received yet",refund_request
+"my refund is delayed",refund_request
+"when will i get my refund",refund_request
+"status of my refund",refund_request
+"check my refund",refund_request
+"help me with refund",refund_request
+"refund the amount to my bank",refund_request
+"i want refund for this",refund_request
+"how long does refund take",refund_request
+"refund time please",refund_request
+"issue a refund",refund_request
+"process my refund",refund_request
+"can i get a refund for this product",refund_request
+"i am not satisfied, refund it",refund_request
+"i want to cancel and refund",refund_request
+"refund my payment",refund_request
+"i didn't receive the item, refund me",refund_request
+"my package never arrived, refund",refund_request
+"wrong item delivered, refund",refund_request
+"damaged item, i need refund",refund_request
+"refund for defective product",refund_request
+"give me my refund",refund_request
+"refund request from my end",refund_request
+"how do i apply for refund",refund_request
+"my refund hasn't arrived",refund_request
+"it's been long, where is refund",refund_request
+"when will refund credit",refund_request
+"how much refund will i get",refund_request
+"i want full refund",refund_request
+"can i get partial refund",refund_request
+"refund money to my account",refund_request
 "refund for cancelled order",refund_request
-"refund for return item",refund_request
-"refund instructions?",refund_request
-"refund requested earlier",refund_request
-"i still need my refund",refund_request
-"waiting for refund",refund_request
-"process refund soon",refund_request
-"process my refund now",refund_request
-"refund stuck?",refund_request
-"refund reinitiate",refund_request
-"refund follow-up",refund_request
+"i paid twice, refund extra amount",refund_request
+"i was overcharged, refund me",refund_request
+"my payment failed but money deducted, refund",refund_request
+"money deducted but no order, refund",refund_request
+"how do i get refund for failed transaction",refund_request
+"refund due for returned item",refund_request
+"i returned it yesterday, refund status",refund_request
+"please process refund soon",refund_request
+"refund my wallet balance",refund_request
+"transfer refund to my upi",refund_request
+"refund me on upi",refund_request
+"i need refund on card",refund_request
+"i need refund on my bank",refund_request
+"refund to same payment method",refund_request
+"want refund into bank account",refund_request
+"refund not processed yet",refund_request
+"why refund taking so long",refund_request
+"i want immediate refund",refund_request
+"i want to know when refund will come",refund_request
+"tell me refund date",refund_request
+"my refund got rejected",refund_request
+"why refund rejected",refund_request
+"refund policy please",refund_request
+"can i get refund after delivery",refund_request
+"refund for prepaid order",refund_request
+"refund for cod return",refund_request
+"i returned item via courier, refund please",refund_request
+"i shipped product back, when refund",refund_request
+"my bank refund not credited",refund_request
+"my card refund not credited",refund_request
+"how to check refund status",refund_request
+"refund not showing in account",refund_request
+"i need my refund asap",refund_request
+"refund asap please",refund_request
+"please return my money",refund_request
+"refund is pending",refund_request
+"money not yet refunded",refund_request
+"track my refund",refund_request
+"can you check refund timeline",refund_request
+"refund the wrong item",refund_request
+"i got duplicate order, refund one",refund_request
+"missing product, refund me",refund_request
+"refund for missing items",refund_request
+"refund because product is bad",refund_request
+"refund because product not working",refund_request
+"refund fraud issue",refund_request
+"refund help needed",refund_request
+"raise refund request",refund_request
+"refund request open",refund_request
+"i wish to raise refund",refund_request
+"how to get money back",refund_request
+"need help getting refund",refund_request
+"refund me immediately",refund_request
+"refund window still open?",refund_request
+"can i still get refund",refund_request
+"refund amount showing wrong",refund_request
+"i want refund confirmation",refund_request
+"please send refund confirmation",refund_request
+"refund for return pickup",refund_request
+"pickup done, where is refund",refund_request
+"refund after pickup",refund_request
+"refund initiated but not received",refund_request
+"refund approval needed",refund_request
+"approve my refund",refund_request
+"refund claim status",refund_request
+"refund claim submitted",refund_request
+"refund claim help",refund_request
+"refund money soon",refund_request
+"my refund stuck",refund_request
+"refund stuck in processing",refund_request
+"problem with refund",refund_request
+"refund query",refund_request
+"refund enquiry",refund_request
+"need refund info",refund_request
+"why refund still pending",refund_request
+"refund taking too long",refund_request
+"refund instructions please",refund_request
 "refund complaint",refund_request
-"resolve refund issue",refund_request
-"refund for part payment",refund_request
-"money not credited yet",refund_request
+"file refund request",refund_request
+"i want refund, item unused",refund_request
+"refund because product expired",refund_request
+"refund because product wrong size",refund_request
+"refund because product different",refund_request
+"not happy with product, refund",refund_request
+"refund for dissatisfied product",refund_request
+"quality not good, refund",refund_request
+"open refund request",refund_request
+"submit refund form",refund_request
+"how do i submit refund request",refund_request
+"refund form link",refund_request
+"refund request link please",refund_request
+"refund to my bank account please",refund_request
+"refund to upi account please",refund_request
+"refund to card account please",refund_request
+"when will refund appear in bank",refund_request
+"when will refund appear in card",refund_request
+"refund process taking forever",refund_request
+"refund guidelines please",refund_request
+"refund eligibility",refund_request
+"am i eligible for refund",refund_request
+"pls refund",refund_request
+"requesting refund",refund_request
+"how to request refund",refund_request
+"please initiate refund",refund_request
+"i want to request my money back",refund_request
+"refund for product return",refund_request
+"refund for unused product",refund_request
+"refund on wrong item",refund_request
+"refund on late delivery",refund_request
+"delivery was late, refund?",refund_request
+"refund because order delayed",refund_request
+"refund because item not delivered",refund_request
+"refund not showing",refund_request
+"could you refund me",refund_request
+"refund in progress?",refund_request
+"is refund initiated?",refund_request
+"refund dispute",refund_request
+"i want to dispute for refund",refund_request
+"need refund assistance",refund_request
+"how to escalate refund",refund_request
+"escalate my refund",refund_request
+"refund escalation request",refund_request
+"refund promised but not received",refund_request
+"refund expected today",refund_request
+"refund expected soon?",refund_request
+"refund pending approval",refund_request
+"refund pending verification",refund_request
+"verify my refund",refund_request
+"check refund verification",refund_request
+"refund transferred or not",refund_request
+"did you refund my money",refund_request
+"pls tell refund status",refund_request
+"refund update please",refund_request
+"want refund immediately",refund_request
+"getting refund when?",refund_request
+"how long for refund approval",refund_request
+"refund waiting",refund_request
+"why refund slow",refund_request
+"refund for damaged order",refund_request
+"refund because item broken",refund_request
+"refund because parts missing",refund_request
+"refund because item incomplete",refund_request
+"refund because product doesn’t match description",refund_request
+"refund for duplicate charge",refund_request
+"multiple charges refund",refund_request
+"extra money deducted refund",refund_request
+"refund for wrong billing",refund_request
+"wrong amount charged refund",refund_request
+"i want money returned",refund_request
+"help refund money",refund_request
+"can i get back my money",refund_request
+"money return request",refund_request
+"request money back",refund_request
+"please reverse payment",refund_request
+"reverse transaction refund",refund_request
+"refund credit my bank",refund_request
+"my refund missing",refund_request
+"where did my refund go",refund_request
+"refund didn't come",refund_request
+"no refund received",refund_request
+"refund was promised",refund_request
+"you said refund will come",refund_request
+"refund plzzz",refund_request
+"product returned, waiting refund",refund_request
 
-"how do i pay?",payment_info
-"payment options?",payment_info
-"what payment methods?",payment_info
-"can i pay using upi?",payment_info
-"do you accept card?",payment_info
-"cod available?",payment_info
-"cash on delivery?",payment_info
-"upi or card?",payment_info
-"netbanking available?",payment_info
-"payment failed",payment_info
-"payment not going through",payment_info
-"payment still processing",payment_info
-"try another payment method?",payment_info
-"why is payment failing?",payment_info
-"help with payment",payment_info
-"make payment now",payment_info
-"proceed to payment",payment_info
-"payment instructions?",payment_info
-"add payment details",payment_info
-"can i change payment method?",payment_info
-"refund goes to which payment?",payment_info
-"is emi available?",payment_info
-"is wallet payment allowed?",payment_info
-"payment verification?",payment_info
-"payment confirmation?",payment_info
-"enter card details?",payment_info
-"payment pending",payment_info
-"payment timeout",payment_info
-"secure payment?",payment_info
-"online payment?",payment_info
-"how to complete payment?",payment_info
-"payment declined",payment_info
-"upi not working",payment_info
-"card not working",payment_info
-"payment stuck at 99%",payment_info
-"payment blocked",payment_info
-"transaction failed",payment_info
-"try different card?",payment_info
-"pay using debit card?",payment_info
-"pay using credit card?",payment_info
-"processing payment…",payment_info
-"payment gateway issue",payment_info
-"which wallets accepted?",payment_info
-"yesbank upi supported?",payment_info
-"google pay available?",payment_info
-"amazon pay available?",payment_info
-"any extra charges?",payment_info
-"is payment safe?",payment_info
-"need payment help?",payment_info
+"can I pay using UPI?", payment_info
+"do you accept debit cards?", payment_info
+"can I use netbanking for the payment?", payment_info
+"is cash on delivery available?", payment_info
+"what payment methods do you support?", payment_info
+"can I pay using credit card?", payment_info
+"is EMI payment available?", payment_info
+"do you support Paytm payments?", payment_info
+"can I use Google Pay?", payment_info
+"are wallet payments supported?", payment_info
+"can I pay at delivery?", payment_info
+"how do I complete the payment?", payment_info
+"my payment is failing what to do?", payment_info
+"do you accept international cards?", payment_info
+"is there any extra charge for card payments?", payment_info
+"can I change my payment method?", payment_info
+"does COD work for all products?", payment_info
+"how secure is your payment system?", payment_info
+"can I add a new card for payment?", payment_info
+"do you accept rupay cards?", payment_info
+"can I pay using amazon pay?", payment_info
+"can I use phonepe to pay?", payment_info
+"do you support paypal?", payment_info
+"can I pay later?", payment_info
+"do you have a pay-later option?", payment_info
+"can I use my rewards to pay?", payment_info
+"is payment via UPI safe?", payment_info
+"do I need OTP for online payment?", payment_info
+"can I pay using my savings account?", payment_info
+"what to do if my card is declined?", payment_info
+"how do I retry the payment?", payment_info
+"can I store my card details?", payment_info
+"does netbanking work on mobile?", payment_info
+"does UPI work instantly?", payment_info
+"can I use multiple payment methods?", payment_info
+"why is my payment pending?", payment_info
+"do you accept prepaid cards?", payment_info
+"can I use corporate cards?", payment_info
+"does COD require extra fees?", payment_info
+"can I pay using visa?", payment_info
+"can I use mastercard for payment?", payment_info
+"do you accept diners club cards?", payment_info
+"can I split my payment?", payment_info
+"why is my UPI payment stuck?", payment_info
+"can I use paytm wallet?", payment_info
+"how do I update my payment info?", payment_info
+"can I pay using SBI debit card?", payment_info
+"do you have cardless EMI?", payment_info
+"what is the minimum amount for UPI?", payment_info
+"does COD support card swipe?", payment_info
+"is there GST on payment?", payment_info
+"can I pay using foreign currency card?", payment_info
+"is international payment allowed?", payment_info
+"do you accept bitcoin?", payment_info
+"can I pay using crypto?", payment_info
+"do you support stripe payments?", payment_info
+"how to verify my payment?", payment_info
+"my upi has failed what to do?", payment_info
+"does UPI need internet?", payment_info
+"can I change payment method after order?", payment_info
+"do you accept cheque payments?", payment_info
+"can I pay partly online and partly cash?", payment_info
+"why is COD not showing?", payment_info
+"can I pay at pickup?", payment_info
+"is pay on delivery safe?", payment_info
+"do you accept simplified payments?", payment_info
+"does EMI require credit card?", payment_info
+"do you allow EMI on debit card?", payment_info
+"how many EMI months can I choose?", payment_info
+"can I pay using bank transfer?", payment_info
+"does NEFT work for payments?", payment_info
+"can I pay using IMPS?", payment_info
+"what banks support netbanking here?", payment_info
+"can I save my UPI id?", payment_info
+"is phonepe accepted?", payment_info
+"why is upi showing payment timeout?", payment_info
+"can I pay through QR code?", payment_info
+"do you generate UPI QR codes?", payment_info
+"can I use airtel money?", payment_info
+"is mobikwik wallet supported?", payment_info
+"can I pay directly from bank?", payment_info
+"can I pay with gift cards?", payment_info
+"do you have store credit payment?", payment_info
+"how do I add money to wallet?", payment_info
+"do you accept payzapp?", payment_info
+"can I use kotak card for payment?", payment_info
+"is there surcharge on credit card?", payment_info
+"do you accept sodexo?", payment_info
+"can I pay using food card?", payment_info
+"why is my card OTP not received?", payment_info
+"can I use virtual card?", payment_info
+"do you accept HDFC netbanking?", payment_info
+"do you support ICICI bank UPI?", payment_info
+"is UPI auto-pay supported?", payment_info
+"can I pay using bharatPe?", payment_info
+"why is my wallet payment declined?", payment_info
+"is upi id mandatory for payment?", payment_info
+"can I use cash and online both?", payment_info
+"where is the payment button?", payment_info
+"how to add a new UPI app?", payment_info
+"can I change UPI handle?", payment_info
+"do you support recurring payments?", payment_info
+"how long does a refund to card take?", payment_info
+"why is card cvv needed?", payment_info
+"can I pay without OTP?", payment_info
+"can I use my credit limit?", payment_info
+"is tap and pay allowed?", payment_info
+"do you accept POS payments?", payment_info
+"can I pay using a friend’s UPI?", payment_info
+"can I add multiple cards?", payment_info
+"how do I remove saved cards?", payment_info
+"why is COD disabled for my area?", payment_info
+"can I pay using EMI on UPI?", payment_info
+"is there any discount on prepaid orders?", payment_info
+"do you support prepaid offers?", payment_info
+"can I redeem coupons during payment?", payment_info
+"can I apply promo after payment?", payment_info
+"do you take digital wallet payments?", payment_info
+"why is my promo code not applying?", payment_info
+"does payment retry work automatically?", payment_info
+"can I set default payment method?", payment_info
+"why did my UPI app not open?", payment_info
+"can I complete payment later?", payment_info
+"how long does payment remain pending?", payment_info
+"can I get invoice before payment?", payment_info
+"do you accept BHIM UPI?", payment_info
+"my card was charged but order not placed?", payment_info
+"is partial payment allowed?", payment_info
+"can I add co-branded cards?", payment_info
+"does EMI need minimum amount?", payment_info
+"why is my EMI option missing?", payment_info
+"can I prepay EMI?", payment_info
+"do you accept Amex cards?", payment_info
+"can I use maestro debit card?", payment_info
+"can I activate UPI first?", payment_info
+"can I request a payment link?", payment_info
+"do you send payment links?", payment_info
+"can I pay using WhatsApp pay?", payment_info
+"do you accept contactless cards?", payment_info
+"why is card 3D secure failing?", payment_info
+"can I use virtual UPI?", payment_info
+"do you accept Discover cards?", payment_info
+"can I add my spouse’s card?", payment_info
+"why is netbanking down?", payment_info
+"can I schedule a payment?", payment_info
+"do you send payment reminders?", payment_info
+"can I clear dues with upi?", payment_info
+"how do I ensure payment success?", payment_info
+"why did my card get blocked?", payment_info
+"can I update expired card?", payment_info
+"do you allow prepaid orders only?", payment_info
+"can I switch to COD after failing?", payment_info
+"can I switch from COD to online?", payment_info
+"do you have any payment helpline?", payment_info
+"can I get GST invoice after payment?", payment_info
+"does upi have transaction limit?", payment_info
+"can I use netbanking on Sunday?", payment_info
+"why is my bank not supported?", payment_info
+"can I pay using digital rupee?", payment_info
+"do you support card-on-delivery?", payment_info
+"why is my payment stuck in processing?", payment_info
+"can I use EMI with promo code?", payment_info
+"do you have interest-free EMI?", payment_info
+"can I do bank transfer manually?", payment_info
+"do you accept bank e-mandate?", payment_info
+"can I pay using direct debit?", payment_info
+"why is my card OTP delayed?", payment_info
+"is debit card EMI available?", payment_info
+"do you allow partial refunds to card?", payment_info
+"can I save UPI as default?", payment_info
+"why is UPI declining?", payment_info
+"do you accept sip payments?", payment_info
+"can I pay with gift voucher?", payment_info
+"can I redeem cashback on payment?", payment_info
+"why is payment screen not loading?", payment_info
+"do you accept axis bank cards?", payment_info
+"can I use kotak UPI?", payment_info
+"can I add my paytm UPI id?", payment_info
+"does your site support upi autopay?", payment_info
+"can I pay using IDFC first bank?", payment_info
+"why is my card limit not enough?", payment_info
+"does credit card require KYC?", payment_info
+"can I use any UPI app?", payment_info
+"can I use vijaya bank card?", payment_info
+"is card number mandatory?", payment_info
+"can I use gift balance for payment?", payment_info
+"why is COD not eligible?", payment_info
+"do you accept instant payment?", payment_info
+"can I complete pending payment later?", payment_info
+"why did bank decline transaction?", payment_info
+"can I use small finance bank card?", payment_info
+"is zero-cost EMI available?", payment_info
+"do you support cashback offers?", payment_info
+"can I use digital wallet to pay?", payment_info
+"why is payment gateway slow?", payment_info
+"can I finalize order without payment?", payment_info
+"can I pay using kotak 811?", payment_info
+"do you accept federal bank cards?", payment_info
+"can I scan QR using phonepe?", payment_info
+"do you support merchant UPI?", payment_info
+"why is emi not processing?", payment_info
+"can I use my parent's card?", payment_info
+"is payment required before shipping?", payment_info
+"can I use e-wallet coupons?", payment_info
+"do you support Cred pay?", payment_info
+"can I pay using SBI netbanking?", payment_info
+"can I use bob debit card?", payment_info
+"why is UPI showing insufficient balance?", payment_info
+"can I retry UPI?", payment_info
+"do you accept neobank cards?", payment_info
+"can I use slice card?", payment_info
+"can I pay using prepaid wallet?", payment_info
+"do you support tap-to-pay?", payment_info
+"why is promo removed after payment?", payment_info
+"can I reattempt failed card payment?", payment_info
+"can I get proof of payment?", payment_info
+"can I view payment history?", payment_info
+"do you support fast payment?", payment_info
+"can I pay using paytm postpaid?", payment_info
+
+"cancel my order please", cancel_order
+"I want to cancel my recent order", cancel_order
+"how do I cancel an order I placed?", cancel_order
+"can you cancel order #4421?", cancel_order
+"stop my order before it ships", cancel_order
+"I made a mistake, cancel it", cancel_order
+"cancel the item I just purchased", cancel_order
+"I don’t need this anymore, cancel my order", cancel_order
+"please cancel my booking", cancel_order
+"cancel this purchase", cancel_order
+"I would like to cancel my transaction", cancel_order
+"cancel the product I ordered today", cancel_order
+"can you stop processing my order?", cancel_order
+"abort the order", cancel_order
+"I wish to revoke my order", cancel_order
+"undo my order", cancel_order
+"withdraw my order request", cancel_order
+"cancel my request now", cancel_order
+"pls cancel my order asap", cancel_order
+"I don’t want this item anymore, cancel", cancel_order
+"cancel my placed order", cancel_order
+"end my order", cancel_order
+"call off the order", cancel_order
+"I need to cancel immediately", cancel_order
+"cancel the delivery order", cancel_order
+"I want to stop the shipment", cancel_order
+"remove the order I made", cancel_order
+"can I cancel my order now?", cancel_order
+"how to stop an already placed order?", cancel_order
+"cancel order before dispatch", cancel_order
+"I mistakenly ordered something, cancel it", cancel_order
+"stop that order I placed", cancel_order
+"cancel my order number 8832", cancel_order
+"I want to cancel an item", cancel_order
+"pls withdraw the order I placed", cancel_order
+"I changed my mind, cancel the order", cancel_order
+"cancel the last order I made", cancel_order
+"cancel this immediately", cancel_order
+"don’t ship it, cancel", cancel_order
+"I want to cancel the purchase I made earlier", cancel_order
+"please stop my online order", cancel_order
+"help me cancel my order", cancel_order
+"I want a cancellation request", cancel_order
+"register a cancellation", cancel_order
+"requesting order cancellation", cancel_order
+"I need the cancellation option", cancel_order
+"cancel my buy", cancel_order
+"reverse my order", cancel_order
+"nullify the order", cancel_order
+"delete my order", cancel_order
+"remove the item from my order list", cancel_order
+"end transaction, cancel order", cancel_order
+"I don’t need the item now, cancel the order", cancel_order
+"can you cancel the purchase?", cancel_order
+"I want to cancel something I ordered", cancel_order
+"help me stop my purchase", cancel_order
+"cancel my order from yesterday", cancel_order
+"stop my order processing", cancel_order
+"stop further processing and cancel", cancel_order
+"I want to cancel due to wrong item", cancel_order
+"cancel because I ordered by mistake", cancel_order
+"cancel since I chose the wrong variant", cancel_order
+"pls cancel due to wrong size", cancel_order
+"cancel the order made by accident", cancel_order
+"I clicked buy by mistake, cancel", cancel_order
+"I need to cancel before dispatch", cancel_order
+"I want to revoke my purchase", cancel_order
+"stop order fulfillment, cancel", cancel_order
+"cancel the submitted order", cancel_order
+"halt the order", cancel_order
+"I want to cancel due to change of mind", cancel_order
+"pls cancel the shipment request", cancel_order
+"cancel my COD order", cancel_order
+"cancel my prepaid order", cancel_order
+"I want my order canceled before shipping", cancel_order
+"cancel my transaction asap", cancel_order
+"I placed the wrong order, cancel it", cancel_order
+"cancel the wrong product I ordered", cancel_order
+"I want to cancel a duplicate order", cancel_order
+"cancel my extra order", cancel_order
+"pls remove the unnecessary order", cancel_order
+"can you help me cancel quickly?", cancel_order
+"I want to start a cancellation", cancel_order
+"cancel my order due to delay", cancel_order
+"cancel my order because I changed the address", cancel_order
+"cancel for now", cancel_order
+"cancel everything I placed today", cancel_order
+"stop the order instantly", cancel_order
+"I want a refund so cancel my order", cancel_order
+"pls cancel and refund", cancel_order
+"order cancellation required", cancel_order
+"I don’t want this anymore, cancel order", cancel_order
+"cancel order right away", cancel_order
+"stop order initiation", cancel_order
+"cancel the checkout request", cancel_order
+"pls cancel the order with id 1022", cancel_order
+"I want to remove my placed order", cancel_order
+"start cancellation protocol", cancel_order
+"pls help with cancel feature", cancel_order
+"cancel my full order", cancel_order
+"cancel a single item from my order", cancel_order
+"cancel the whole cart order", cancel_order
+"I made a duplicate purchase, cancel it", cancel_order
+"cancel order since it's not needed", cancel_order
+"I need to stop a wrong order", cancel_order
+"I want to cancel something urgently", cancel_order
+"pls cancel the previous order", cancel_order
+"undo my recent purchase", cancel_order
+"I want to revoke this item", cancel_order
+"cancel the confirmed order", cancel_order
+"pls cut the order", cancel_order
+"I want to stop my order now", cancel_order
+"cancel the order I mistakenly placed", cancel_order
+"call customer support to cancel order", cancel_order
+"cancel because I need a different product", cancel_order
+"reverse the order processing", cancel_order
+"I need cancellation approval", cancel_order
+"cancel my item due to wrong quantity", cancel_order
+"cancel my order session", cancel_order
+"I want to abort my purchase", cancel_order
+"pls remove this order from my history", cancel_order
+"cancel the unshipped order", cancel_order
+"I want to discard my order", cancel_order
+"stop the purchase order", cancel_order
+"cancel the transaction", cancel_order
+"stop my placed transaction", cancel_order
+"cancel the digital order", cancel_order
+"I want to cancel before delivery", cancel_order
+"cancel the order placed 5 mins ago", cancel_order
+"I don’t want that item, cancel", cancel_order
+"I would like to request order cancellation", cancel_order
+"terminate order process", cancel_order
+"cancel because product is not needed", cancel_order
+"pls remove that order", cancel_order
+"I want to cancel an accidental tap", cancel_order
+"cancel my express order", cancel_order
+"pls disable that order", cancel_order
+"stop order creation", cancel_order
+"halt further progress, cancel", cancel_order
+"I want to stop the order now", cancel_order
+"take back my order request", cancel_order
+"pls stop the item from shipping", cancel_order
+"cancel the unwanted item", cancel_order
+"can you stop item dispatch?", cancel_order
+"I need to withdraw my order", cancel_order
+"stop the purchase immediately", cancel_order
+"I want to cancel my cart order", cancel_order
+"pls halt the order I issued", cancel_order
+"abort delivery and cancel", cancel_order
+"cancel because I need another color", cancel_order
+"I want to cancel due to price drop", cancel_order
+"I want to cancel due to wrong address", cancel_order
+"cancel order since it's too expensive", cancel_order
+"cancel the order I placed by error", cancel_order
+"I need to stop wrong order processing", cancel_order
+"pls help remove my placed order", cancel_order
+"cancel my payment order", cancel_order
+"I want to cancel because I got a better deal", cancel_order
+"cancel due to personal reasons", cancel_order
+"cancel due to urgency", cancel_order
+"pls cancel the scheduled delivery", cancel_order
+"undo item confirmation", cancel_order
+"cancel my purchase entirely", cancel_order
+"I want to withdraw transaction", cancel_order
+"stop the automatic order", cancel_order
+"I want to reject my order", cancel_order
+"pls undo the order request", cancel_order
+"cancel the prepaid item", cancel_order
+"cancel the COD parcel", cancel_order
+"cancel an order I placed earlier today", cancel_order
+"I no longer want it, cancel", cancel_order
+"cancel item order before it's packed", cancel_order
+"stop my request immediately", cancel_order
+"cancel my entire purchase list", cancel_order
+"I want to cancel due to shipping delay", cancel_order
+"the order is wrong, cancel it", cancel_order
+"cancel this wrong order", cancel_order
+"I clicked order by mistake, stop it", cancel_order
+"pls cancel now before dispatch", cancel_order
+"I want to cancel the confirmed purchase", cancel_order
+"cancel my queued order", cancel_order
+"I need to cancel my order urgently", cancel_order
+"stop and cancel", cancel_order
+"pls reverse the checkout", cancel_order
+"I want to remove my purchase", cancel_order
+"cancel the selected item", cancel_order
+"stop the processing workflow", cancel_order
+"cancel the recently submitted order", cancel_order
+"I want to dispute and cancel my order", cancel_order
+"pls retract my order", cancel_order
+"delete the product order", cancel_order
+"I want to cancel due to cart mistake", cancel_order
+"cancel my checkout order", cancel_order
+"cancel the order I just confirmed", cancel_order
+"I made an incorrect order, cancel", cancel_order
+"pls terminate the order", cancel_order
+"cancel my order request entirely", cancel_order
+"I want to stop this item", cancel_order
+"order cancellation needed instantly", cancel_order
+"pls block the order", cancel_order
+"cancel due to wrong info", cancel_order
+"cancel the listed order", cancel_order
+"I want my order canceled completely", cancel_order
+"remove the placed booking", cancel_order
+"cancel the purchase request", cancel_order
+"I want to cancel item from cart", cancel_order
+"pls undo the purchase", cancel_order
+"cancel the whole checkout", cancel_order
+"cancel this online order now", cancel_order
+"pls stop my confirmed order", cancel_order
+"I want to cancel because I found an error", cancel_order
+"I want cancellation help", cancel_order
+"pls cancel the recent buy", cancel_order
+"end and cancel my order", cancel_order
+"cancel my online purchase", cancel_order
+"cancel the item before packing", cancel_order
+"I want to cancel my order number 1201", cancel_order
+"reverse the purchase", cancel_order
+"pls remove order instantly", cancel_order
+"cancel that thing I ordered", cancel_order
+"I want to stop this product order", cancel_order
+"cancel everything I ordered accidentally", cancel_order
+"cancel my incorrect buy", cancel_order
+"pls stop my transaction", cancel_order
+"halt and cancel", cancel_order
+"I want to revoke the order placed", cancel_order
+"pls stop the wrong purchase", cancel_order
+"I want to cancel a recent buy", cancel_order
+"pls cancel before shipping starts", cancel_order
+"cancel the action taken", cancel_order
+
+"I want to return my item", return_item
+"how do I return a product?", return_item
+"please start a return request", return_item
+"I need to return what I bought", return_item
+"can I return this order?", return_item
+"return my package", return_item
+"I want to initiate a return", return_item
+"how do I return something I purchased?", return_item
+"return the product I received", return_item
+"start the return process", return_item
+"I want to send this back", return_item
+"I need to return my shipment", return_item
+"help me return the item", return_item
+"where do I request a return?", return_item
+"can you process my return?", return_item
+"I want to return the wrong item", return_item
+"wrong product delivered, want to return", return_item
+"I received damaged product, returning", return_item
+"please accept my return request", return_item
+"I want to give this back", return_item
+"return the defective item", return_item
+"I need to return due to size issue", return_item
+"size does not fit, want to return", return_item
+"I want to return because color is wrong", return_item
+"the product is broken, return it", return_item
+"I want to return an unwanted item", return_item
+"return because the quality is bad", return_item
+"I don’t like it, return", return_item
+"I want to exchange or return this item", return_item
+"initiate return for order #1022", return_item
+"return my clothes order", return_item
+"start return for the shoes I bought", return_item
+"how to return a clothing item?", return_item
+"I want to return my electronics order", return_item
+"I mistakenly ordered this, return it", return_item
+"return a duplicate product", return_item
+"start refund and return", return_item
+"my product arrived late, return it", return_item
+"I want to return because it’s not the same as shown", return_item
+"item not as described, need to return", return_item
+"can I return after delivery?", return_item
+"return window open?", return_item
+"check if return option is available", return_item
+"want to return due to poor quality", return_item
+"I want to return unused product", return_item
+"I want to return sealed item", return_item
+"return this unused item", return_item
+"I want to schedule a return pickup", return_item
+"pickup needed for return", return_item
+"how do I get a return pickup?", return_item
+"return pickup not scheduled yet", return_item
+"please schedule pickup for return", return_item
+"I want to return COD order", return_item
+"return prepaid order", return_item
+"I want to return an opened package", return_item
+"can I return without box?", return_item
+"do you allow returns without tag?", return_item
+"I lost the bill, can I return?", return_item
+"I want to return this gift item", return_item
+"received wrong size, return needed", return_item
+"return because the item doesn’t work", return_item
+"I want to return because it is defective", return_item
+"defective product return", return_item
+"I want to return an incorrect delivery", return_item
+"received someone else’s item, return", return_item
+"I want to return because it’s not useful", return_item
+"I changed my mind, return it", return_item
+"I don’t want this item anymore, return", return_item
+"I want to return an accessory", return_item
+"return the home appliance I ordered", return_item
+"return this phone case", return_item
+"I want to return my headphones", return_item
+"how do I return a phone?", return_item
+"I want to return kitchen item", return_item
+"return sports equipment", return_item
+"return groceries order", return_item
+"can I return fashion items?", return_item
+"want to return cosmetic products", return_item
+"how do I return damaged cosmetics?", return_item
+"I want to return expired item", return_item
+"return because product leaked", return_item
+"I need to return due to missing parts", return_item
+"missing accessories, need return", return_item
+"return because instructions missing", return_item
+"I want to return a bundle", return_item
+"return the combo pack", return_item
+"return this item from my order list", return_item
+"I only want to return one item", return_item
+"partial return needed", return_item
+"return only selected items", return_item
+"I want to return the entire order", return_item
+"full return request", return_item
+"return the whole package", return_item
+"return all items shipped", return_item
+"I want to return because of allergy", return_item
+"skin irritation, want to return", return_item
+"return because it's unsafe", return_item
+"I am unhappy with product, return", return_item
+"dissatisfied, need return", return_item
+"how long return takes?", return_item
+"can I return after 7 days?", return_item
+"is it eligible for return?", return_item
+"check my return eligibility", return_item
+"want to know return steps", return_item
+"how many days to return an item?", return_item
+"return due to size mismatch", return_item
+"I want to return because color faded", return_item
+"product looks old, want to return", return_item
+"I want to return because item is fake", return_item
+"I suspect counterfeit, return it", return_item
+"I want to return because product is used", return_item
+"item seems previously used, return", return_item
+"return because I received empty box", return_item
+"empty package received, want to return", return_item
+"want to return because product is torn", return_item
+"I want to return because zipper broken", return_item
+"button missing, need return", return_item
+"product rusted, return", return_item
+"I want to return without replacement", return_item
+"return for refund only", return_item
+"I want return, not replacement", return_item
+"return because it’s not working well", return_item
+"faulty item return", return_item
+"I want to return a damaged box", return_item
+"box crushed, need return", return_item
+"I want to return a leaking bottle", return_item
+"liquid spilled, return", return_item
+"I want to return because item is not premium", return_item
+"cheap quality, return it", return_item
+"product quality disappointing, return", return_item
+"I want to return this fragile item", return_item
+"broken packaging, return", return_item
+"I want to return the product since it’s different model", return_item
+"I want to return because wrong variant received", return_item
+"wrong color received, return", return_item
+"wrong pattern delivered, return", return_item
+"I want to return old manufactured item", return_item
+"manufacture date too old, return", return_item
+"I want to return because parts don’t match", return_item
+"received incomplete experience, return it", return_item
+"I want to return due to delivery delay", return_item
+"item arrived late, return", return_item
+"I want to return due to change of mind", return_item
+"return due to personal reasons", return_item
+"I want to return something urgently", return_item
+"urgent return request", return_item
+"return order #5522", return_item
+"return ID needed", return_item
+"I want to return order delivered today", return_item
+"return an item delivered yesterday", return_item
+"I want to return unopened product", return_item
+"brand mismatch, want return", return_item
+"I want to return damaged clothing", return_item
+"want to return cracked screen protector", return_item
+"I want to return the shoes because they don’t fit", return_item
+"I want to return slippers too tight", return_item
+"the hoodie is too big, return", return_item
+"I want to return jeans too small", return_item
+"I want to return the jacket because zipper broken", return_item
+"return because stitching is loose", return_item
+"I want to return product due to fabric issue", return_item
+"I want to return packaged food item", return_item
+"return stale food", return_item
+"food packet torn, return", return_item
+"I want to return due to allergy warning", return_item
+"I want to return because manufacturing defect", return_item
+"factory defect, return it", return_item
+"I want to return a tech accessory", return_item
+"return Bluetooth device", return_item
+"return mobile charger", return_item
+"I want to return power bank", return_item
+"return laptop accessory", return_item
+"return wrong RAM stick", return_item
+"I want to return smart watch strap", return_item
+"want to return fitness band", return_item
+"I want to return this home decor item", return_item
+"I want to return broken vase", return_item
+"return because paint chipped", return_item
+"I want to return furniture item", return_item
+"table arrived damaged, return", return_item
+"I want to return a mattress", return_item
+"return because material soft", return_item
+"I want to return carpet wrong size", return_item
+"I want to return because bad smell", return_item
+"strong chemical smell, return", return_item
+"I want to return the toy I bought", return_item
+"toy broken, return needed", return_item
+"I want to return game item", return_item
+"return puzzle set", return_item
+"I want to return books order", return_item
+"pages torn, return", return_item
+"I want to return notebook", return_item
+"I want to return because too costly", return_item
+"not worth the price, return", return_item
+"I want to return after unboxing", return_item
+"return because item heating up", return_item
+"device overheating, need return", return_item
+"I want to return malfunctioning device", return_item
+"system not working, return", return_item
+"I want to return order due to missing warranty", return_item
+"no warranty card received, return", return_item
+"I want to return because wrong brand", return_item
+"incorrect branding, return", return_item
+"I want to return multiple items", return_item
+"return two items from order", return_item
+"return this single faulty product", return_item
+"product doesn’t match description, return", return_item
+"I want to return defected product", return_item
+"I need to return because item is dull", return_item
+"not satisfied, return request", return_item
+"I want to return based on poor reviews", return_item
+"I want to return because packaging damaged", return_item
+"I want to return because incorrect sizing chart", return_item
+"want to return loose fitting item", return_item
+"want to return extra item delivered", return_item
+"received 2 items instead of 1, return extra", return_item
+"I want replacement but also starting return", return_item
+"I want return details", return_item
+"share return instructions", return_item
+"tell me return procedure", return_item
+"help with item return", return_item
+"I want to return due to safety issue", return_item
+"potential hazard, return", return_item
+"I want to return suspicious product", return_item
+"I want to return because seal broken", return_item
+"tampered seal, return", return_item
+"I want to return wrong seller item", return_item
+"return because seller mismatch", return_item
+"I want to return unwanted gift", return_item
+"return this as gift not needed", return_item
+"I want to return because I already have one", return_item
+"duplicate product received, return", return_item
+
   
-"i need help?",other
-"tell me more?",other
-"what is your name?",other
-"who are you?",other
-"how do you work?",other
-"explain your features?",other
-"what can you do?",other
-"how can you assist me?",other
-"help me with something?",other
-"i have a question?",other
-"i am confused?",other
-"i am stuck?",other
-"need assistance?",other
-"i need support?",other
-"what is this platform?",other
-"what do you offer?",other
-"show me options?",other
-"i need more info?",other
-"how does this app work?",other
-"how to use this app?",other
-"guide me?",other
-"tell me instructions?",other
-"i need clarity?",other
-"give me details?",other
-"explain this please?",other
-"what’s happening?",other
-"not sure what to do?",other
-"please explain?",other
-"help me understand?",other
-"why is this happening?",other
-"what are your services?",other
-"help menu?",other
-"how can i begin?",other
-"how do i start?",other
-"help me navigate?",other
-"show help section?",other
-"what do i click?",other
-"tell me options?",other
-"i need direction?",other
+"what can you help me with?", other
+"tell me something interesting", other
+"i have a question", other
+"need some assistance", other
+"can you guide me?", other
+"i want some information", other
+"what do you do?", other
+"explain your features", other
+"help me out with something", other
+"what services do you provide?", other
+"tell me more", other
+"give me details", other
+"i am confused", other
+"assist me please", other
+"can you solve queries?", other
+"i want general help", other
+"respond to my question", other
+"i need guidance", other
+"i need support", other
+"can you explain?", other
+"tell me how this works", other
+"what is this platform?", other
+"describe your purpose", other
+"i have doubts", other
+"can you clear my doubt?", other
+"help me understand this", other
+"explain this to me", other
+"i want to know something", other
+"tell me anything", other
+"i need information about this", other
+"how does this system work?", other
+"i want to ask something", other
+"i have a random question", other
+"i want advice", other
+"what are the rules?", other
+"tell me about your services", other
+"clarify something for me", other
+"give me some suggestions", other
+"i want clarification", other
+"provide me some info", other
+"give me details about this", other
+"i am just checking", other
+"tell me more about your functions", other
+"explain the purpose", other
+"what can i do here?", other
+"how do you work?", other
+"i have a general question", other
+"i don’t know what to do", other
+"guide me with options", other
+"show me what i can do", other
+"i want random info", other
+"help me browse", other
+"i need assistance with something else", other
+"not sure what this is", other
+"i am exploring", other
+"tell me something random", other
+"give me a quick explanation", other
+"can you describe this page?", other
+"how can i use this app?", other
+"tell me how to proceed", other
+"help me navigate", other
+"i want to check something", other
+"what are the features?", other
+"give me the basics", other
+"explain in simple terms", other
+"how do i use this system?", other
+"i want to explore options", other
+"what am i supposed to do?", other
+"just asking something", other
+"respond to my query", other
+"i want to learn more", other
+"explain the system functions", other
+"guide me through steps", other
+"tell me the usage", other
+"what do you support?", other
+"how do you help users?", other
+"can you tell me more?", other
+"give me an overview", other
+"just wanted to know", other
+"tell me about this service", other
+"explain how this tool works", other
+"give me general guidance", other
+"i want to understand your features", other
+"need general support", other
+"tell me how you operate", other
+"explain the whole thing", other
+"i want to explore the service", other
+"what is the purpose of this chatbot?", other
+"give me some ideas", other
+"tell me something helpful", other
+"need clarity on this", other
+"explain what you can do for me", other
+"tell me what you know", other
+"i am just asking around", other
+"can you answer something?", other
+"i need a simple answer", other
+"i want a basic explanation", other
+"how do i start using this?", other
+"explain this interface", other
+"i want general information", other
+"i am looking for guidance", other
+"give me some options", other
+"i want to know how this works", other
+"tell me about the platform", other
+"share some insights", other
+"help me understand features", other
+"guide me through usage", other
+"explain the functions available", other
+"i am new here", other
+"what does this app do?", other
+"how can you assist me?", other
+"give me quick help", other
+"i have some general doubts", other
+"talk to me", other
+"i need to ask something random", other
+"can you give me information?", other
+"tell me answers", other
+"explain step by step", other
+"tell me how to get started", other
+"describe the functions", other
+"provide instructions", other
+"i want to know the details", other
+"help me with something else", other
+"i am testing the system", other
+"explain the features briefly", other
+"what actions can you perform?", other
+"teach me how to use this", other
+"i want to know your capabilities", other
+"what options do i have?", other
+"how can i interact with you?", other
+"i need more details", other
+"give me the explanation", other
+"what should i click?", other
+"what is your role?", other
+"why should i use this?", other
+"i want clarity", other
+"i want more information", other
+"what all can you do?", other
+"tell me your abilities", other
+"i am confused about the system", other
+"tell me instructions", other
+"describe how this works", other
+"i need to know something else", other
+"just trying to understand", other
+"throw some light on this", other
+"explain like I’m new", other
+"show me how this works", other
+"give me a walkthrough", other
+"walk me through the process", other
+"tell me more about your system", other
+"explain the concept", other
+"introduce yourself", other
+"tell me your purpose", other
+"what is your function?", other
+"i want to check your capabilities", other
+"can you help in general?", other
+"guide me how to use this", other
+"how does this chatbot function?", other
+"clarify the process", other
+"show me steps", other
+"explain how i should proceed", other
+"help me out here", other
+"details please", other
+"i want to discuss something random", other
+"answer my doubt", other
+"explain your working", other
+"explain the basics", other
+"tell me everything you know", other
+"i want a description", other
+"walk me through features", other
+"tell me about the system flow", other
+"give me some general help", other
+"how to use this?", other
+"i want information unrelated to orders", other
+"general question incoming", other
+"can you handle general queries?", other
+"i want to ask general stuff", other
+"i need help with something else", other
+"tell me general info", other
+"what types of queries can you answer?", other
+"explain options available", other
+"i want platform details", other
+"tell me something else", other
+"i have another question", other
+"what else can you do?", other
+"i want to know all features", other
+"describe everything briefly", other
+"explain what’s going on", other
+"help me make sense of this", other
+"guide me in general", other
+"tell me how to use features", other
+"give me a system overview", other
+"what functions do you support?", other
+"explain available features", other
+"how do i move ahead?", other
+"not related to any order", other
+"this is a random query", other
+"just asking for info", other
+"i have unrelated question", other
+"guide me in detail", other
+"what can i ask you?", other
+"how to begin?", other
+"i want help understanding system", other
+"teach me how this works", other
+"explain anything to me", other
+"give me general clarification", other
+"i want to know something extra", other
+"help me understand overall flow", other
+"tell me how the chatbot behaves", other
+"describe general working", other
+"general inquiry", other
+"i am exploring features", other
+"i need some random info", other
+"i want suggestions", other
+"give me user guidance", other
+"tell me summary of this tool", other
+"how do i interact here?", other
+"what should i know?", other
+"give me a broad explanation", other
+"i want to know the basics", other
+"just want to ask", other
+"i want to know how things work", other
+"share general advice", other
+"i am not sure what to do", other
+"explain navigation", other
+"tell me how to go ahead", other
+"can you explain your job?", other
+"i want a simple guide", other
+"what’s happening?", other
+"explain things clearly", other
+"general help required", other
+"this is just a test question", other
+"help me understand this tool", other
+"show me how to explore options", other
+"tell me any information", other
+"hope you can guide me", other
+"i have a doubt about the system", other
+"general confusion, help", other
+"tell me what i should do next", other
+"provide system help", other
+"i want to know features available", other
+"explain general things to me", other
+"describe usage pattern", other
+"help me figure this out", other
+"can you help me with navigation?", other
+"describe the choices available", other
+"i just want to understand", other
+"tell me something unrelated", other
+"i want non-order information", other
+"assist me randomly", other
+"give me common help", other
+"how can i use various features?", other
+"explain system briefly", other
+"tell me default functions", other
+"explain how chatbot responds", other
+"what can I talk to you about?", other
+"tell me how you manage queries", other
+"i have a basic question", other
+"explain whole workflow", other
+"i want the introduction", other
+"just solving doubt", other
+"tell me something new", other
+

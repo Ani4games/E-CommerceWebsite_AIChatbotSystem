@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios from "axios"; 
+import api from "../../axiosconfig"; 
 import "./ChatBot.css";
 
 const Chatbot = () => {
@@ -9,16 +9,16 @@ const Chatbot = () => {
   ]);
   const [input, setInput] = useState("");
 
-  // 🔵 Send message to backend and get chatbot response
   const sendToBackend = async (userText) => {
     try {
-      const res = await axios.post("http://127.0.0.1:8000/chat", {
+      const res = await api.post("/chat", {
         user_id: "web_user",
         message: userText,
       });
 
       return res.data.response;
     } catch (error) {
+      console.log(error);
       return "⚠️ Error contacting server.";
     }
   };
@@ -32,31 +32,23 @@ const Chatbot = () => {
     const userText = input;
     setInput("");
 
-    // 🟡 Show temporary "typing..." indicator
-    setMessages((prev) => [
-      ...prev,
-      { sender: "bot", text: "Typing..." },
-    ]);
+    setMessages((prev) => [...prev, { sender: "bot", text: "Typing..." }]);
 
-    // 🔵 Get response from backend
     const botReply = await sendToBackend(userText);
 
-    // Replace "typing..." message with real reply
     setMessages((prev) => {
       const updated = [...prev];
-      updated.pop(); // remove "typing..."
+      updated.pop(); 
       return [...updated, { sender: "bot", text: botReply }];
     });
   };
 
   return (
     <div>
-      {/* Chat toggle button */}
       <div className="chatbot-toggle" onClick={() => setIsOpen(!isOpen)}>
         💬
       </div>
 
-      {/* Chat window */}
       {isOpen && (
         <div className="chatbot-window">
           <div className="chatbot-header">ShopSmart Assistant 🤖</div>

@@ -1,12 +1,12 @@
 # backend/nlp/response_manager.py
 
-from intent_model import predict_intent
-from entity_model import extract_entities
-from context_manager import ContextManager
-from personalization import personalize_response
-from knowledge_base import query_knowledge_base
-from logger import log_interaction
-from error_handler import log_error
+from nlp.intent_model import predict_intent
+from nlp.entity_model import extract_entities
+from nlp.context_manager import ContextManager
+from nlp.personalization import personalize_response
+from nlp.knowledge_base import query_knowledge_base
+from nlp.logger import log_interaction
+from nlp.error_handler import log_error
 
 context = ContextManager()
 

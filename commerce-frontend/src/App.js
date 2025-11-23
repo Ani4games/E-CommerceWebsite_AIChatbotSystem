@@ -1,15 +1,14 @@
-// src/App.js
+// App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Chatbot from "./Components/Chatbot/Chatbot";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
-// import ProductCard from "./Components/ProductCard";
 import Cart from "./pages/Cart";
 import ProductPage from "./pages/ProductPage";
-import Home from "./pages/Home";     
-import Login from "./pages/Login";   // Added Login route
+import Home from "./pages/Home";
+import Login from "./pages/Login";
 
 import { CartProvider } from "./context/CartContext";
 
@@ -19,19 +18,17 @@ function App() {
   return (
     <Router>
       <CartProvider>
-        <div style={{ padding: 20 }}>
-          <Navbar />
+        <Navbar />
 
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/productsData" element={<ProductPage />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="/login" element={<Login />} />
-          </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<ProductPage />} />   {/* FIXED */}
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
 
-          <Chatbot />
-          <Footer />
-        </div>
+        <Chatbot />
+        <Footer />
       </CartProvider>
     </Router>
   );

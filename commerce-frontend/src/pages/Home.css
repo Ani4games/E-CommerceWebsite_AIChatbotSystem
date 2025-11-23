@@ -1,0 +1,16 @@
+/* Home.css */
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 18px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}

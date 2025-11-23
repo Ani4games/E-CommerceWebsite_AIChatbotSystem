@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useContext } from 'react';
 import { CartContext } from '../context/CartContext';
 import ProductCard from '../Components/ProductCard';
-// import './Home.css';
+import './Home.css';
 const Home = () => {
   const [products, setProducts] = useState([]);
   const { addToCart } = useContext(CartContext);

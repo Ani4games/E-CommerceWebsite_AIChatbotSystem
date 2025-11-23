@@ -17,23 +17,18 @@ function ProductPage() {
 
   const filtered = productsData.filter(item => {
     const categoryMatch = categoryFilter === "All" || item.category === categoryFilter;
-
     const priceMatch = item.price <= priceFilter;
-
     return categoryMatch && priceMatch;
   });
 
   return (
     <div className="product-page-container">
-      {/* ---------------- Filters ---------------- */}
       <aside className="filters">
         <h3>Filters</h3>
 
         <label>Category</label>
-        <select
-          value={categoryFilter}
-          onChange={(e) => setCategoryFilter(e.target.value)}
-        >
+        <select value={categoryFilter}
+          onChange={(e) => setCategoryFilter(e.target.value)}>
           <option>All</option>
           <option>Electronics</option>
           <option>Fashion</option>
@@ -41,19 +36,14 @@ function ProductPage() {
         </select>
 
         <label>Max Price: ₹{priceFilter}</label>
-        <input
-          type="range"
-          min="100"
-          max="3000"
+        <input type="range" min="100" max="3000"
           value={priceFilter}
-          onChange={(e) => setPriceFilter(Number(e.target.value))} />
+          onChange={(e) => setPriceFilter(Number(e.target.value))}
+        />
       </aside>
 
-      {/* ---------------- Product Grid ---------------- */}
       <section className="product-grid">
-        {filtered.map((p) => (
-          <ProductCard key={p.id} product={p} />
-        ))}
+        {filtered.map((p) => <ProductCard key={p.id} product={p} />)}
 
         {filtered.length === 0 && (
           <p className="no-results">No products match your filters.</p>
