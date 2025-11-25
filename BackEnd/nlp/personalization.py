@@ -62,18 +62,21 @@ def get_user_profile(user_id):
 # ------------------------------------------------------
 def personalize_response(user_id, intent, base_response):
     user = get_user_profile(user_id)
-    name = user.get("name", "Guest")
-    product = user.get("preferred_product", "product")
-    order_id = user.get("recent_order", "#0000")
+    name = user["name"]
+    product = user["preferred_product"]
+    order_id = user["recent_order"]
 
+    # Intent-specific personalization
     if intent == "track_order":
-        return f"Hi {name}! Your order {order_id} for {product} is currently being processed."
+        return f"Hi {name}! Your order {order_id} for {product} is being processed."
     elif intent == "return_item":
-        return f"Sure {name}, I’ve initiated a return for your {product}."
+        return f"Sure {name}, I can help you return your {product}."
     elif intent == "payment_info":
         return f"{name}, you can pay using UPI, card, or COD — whichever you prefer."
-    else:
-        return f"{base_response} (By the way, nice choice on those {product}s 😄)"
+
+    # Neutral intents (greeting, goodbye, other)
+    return base_response
+
 
 # ------------------------------------------------------
 # Quick test

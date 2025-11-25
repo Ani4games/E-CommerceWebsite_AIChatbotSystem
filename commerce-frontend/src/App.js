@@ -13,7 +13,7 @@ import Login from "./pages/Login";
 import { CartProvider } from "./context/CartContext";
 
 import "./App.css";
-
+import "./theme.css";
 function App() {
   return (
     <Router>

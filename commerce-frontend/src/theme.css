@@ -1,0 +1,107 @@
+:root {
+  /* Color System */
+  --accent: #4a60ff;
+  --accent-light: #e8ecff;
+  --accent-dark: #3b4bcc;
+
+  --bg: #f5f6fa;
+  --panel: #ffffff;
+  --border: #d9dbe3;
+  --text: #1c1d22;
+  --text-light: #5a5c63;
+
+  --shadow-subtle: 0 2px 6px rgba(0,0,0,0.06);
+
+  /* Typography */
+  --font-main: "Inter", sans-serif;
+
+  /* Spacing */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  --transition: 0.2s ease;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-main);
+}
+
+/* ---------- GLOBAL CONTAINERS ---------- */
+.page-wrapper {
+  padding: 24px;
+}
+
+.grid-responsive {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+/* ---------- HEADER (OPTIONAL) ---------- */
+.app-header {
+  background: var(--panel);
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+/* ---------- PRODUCT CARD RESPONSIVE SUPPORT ---------- */
+.product-card {
+  transition: var(--transition);
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-subtle);
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS ---------- */
+
+/* Tablets */
+@media (max-width: 900px) {
+  .page-wrapper { padding: 20px; }
+
+  .app-header { padding: 14px 20px; }
+}
+
+/* Mobile Large */
+@media (max-width: 600px) {
+  .page-wrapper { padding: 16px; }
+
+  .grid-responsive {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 16px;
+  }
+
+  .product-card img {
+    height: 130px;
+  }
+
+  .product-card .price {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile Small */
+@media (max-width: 420px) {
+  .grid-responsive {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .product-card img {
+    height: 120px;
+  }
+
+  .product-card h3 {
+    font-size: 1rem;
+  }
+}

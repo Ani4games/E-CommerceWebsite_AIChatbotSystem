@@ -35,6 +35,21 @@ def train_intent_model():
     df['query'] = df['query'].astype(str).str.strip()
     df['intent'] = df['intent'].astype(str).str.strip().str.lower()
 
+    # ===============================
+    # ➕ NEW — Intent Distribution Display
+    # ===============================
+    print("\n================ INTENT DISTRIBUTION ================")
+    print(f"Total samples: {len(df)}")
+    print("Unique intents:", df['intent'].nunique())
+    print("\nCounts:\n", df['intent'].value_counts())
+
+    # warnings
+    if len(df) < 200:
+        print("\n⚠ WARNING: Dataset is very small (<200 rows).")
+    if df['intent'].value_counts().min() < 10:
+        print("⚠ WARNING: Some intents have fewer than 10 samples.")
+    print("=====================================================\n")
+
     X = df['query']
     y = df['intent']
 
@@ -108,6 +123,4 @@ def predict_intent(text, confidence_threshold=0.55):
 # 🧪 Manual Training Mode
 # ===============================
 if __name__ == "__main__":
-    # Only run training when manually executing:
-    # python intent_model.py
     train_intent_model()

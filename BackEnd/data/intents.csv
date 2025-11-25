@@ -1312,7 +1312,366 @@ query,intent
 "I want to return because I already have one", return_item
 "duplicate product received, return", return_item
 
-  
+"hello there",greeting
+"hi",greeting
+"hey",greeting
+"hello",greeting
+"hi friend",greeting
+"hey buddy",greeting
+"good morning",greeting
+"good afternoon",greeting
+"good evening",greeting
+"hi chatbot",greeting
+"hey assistant",greeting
+"hello assistant",greeting
+"hi there!",greeting
+"hey there!",greeting
+"hey what's up",greeting
+"hi what's up",greeting
+"yo",greeting
+"hello bot",greeting
+"hi bot",greeting
+"hey bot",greeting
+"greetings",greeting
+"good day",greeting
+"hi how are you",greeting
+"hello how are you",greeting
+"hey how are you",greeting
+"hi mate",greeting
+"hey mate",greeting
+"hi dude",greeting
+"hey dude",greeting
+"hola",greeting
+"namaste",greeting
+"hi bro",greeting
+"hey bro",greeting
+"hello bro",greeting
+"sup",greeting
+"wassup",greeting
+"hi dear",greeting
+"hello dear",greeting
+"hey dear",greeting
+"hello friend",greeting
+"hi again",greeting
+"hey again",greeting
+"yo bot",greeting
+"good to see you",greeting
+"hello my friend",greeting
+"hi my friend",greeting
+"hey my friend",greeting
+"hi there buddy",greeting
+"hello there buddy",greeting
+"hey there buddy",greeting
+"hi there assistant",greeting
+"hello there assistant",greeting
+"hey there assistant",greeting
+"hi there bot",greeting
+"hello there bot",greeting
+"hey there bot",greeting
+"hi there chatbot",greeting
+"hello there chatbot",greeting
+"hey there chatbot",greeting
+"hello!",greeting
+"hi!",greeting
+"hey!",greeting
+"yo!",greeting
+"hiya",greeting
+"ahoy",greeting
+"hi pal",greeting
+"hello pal",greeting
+"hey pal",greeting
+"hi there pal",greeting
+"hello there pal",greeting
+"hey there pal",greeting
+"hi shopsmart",greeting
+"hello shopsmart",greeting
+"hey shopsmart",greeting
+"hi service",greeting
+"hello service",greeting
+"hey service",greeting
+"hi customer support",greeting
+"hello customer support",greeting
+"hey customer support",greeting
+"hi team",greeting
+"hello team",greeting
+"hey team",greeting
+"hi assistant bot",greeting
+"hello assistant bot",greeting
+"hey assistant bot",greeting
+"hello my assistant",greeting
+"hi my assistant",greeting
+"hey my assistant",greeting
+"hello robot",greeting
+"hi robot",greeting
+"hey robot",greeting
+"hi system",greeting
+"hello system",greeting
+"hey system",greeting
+"hi smart assistant",greeting
+"hello smart assistant",greeting
+"hey smart assistant",greeting
+"hi there service",greeting
+"hello there service",greeting
+"hey there service",greeting
+"hi you!",greeting
+"hello you!",greeting
+"hey you!",greeting
+"just saying hi",greeting
+"just saying hello",greeting
+"just saying hey",greeting
+"good morning bot",greeting
+"good afternoon bot",greeting
+"good evening bot",greeting
+"hi boss",greeting
+"hello boss",greeting
+"hey boss",greeting
+"hi helper",greeting
+"hello helper",greeting
+"hey helper",greeting
+"hi assistant!",greeting
+"hello assistant!",greeting
+"hey assistant!",greeting
+"hi everyone",greeting
+"hello everyone",greeting
+"hey everyone",greeting
+"hi shop chat",greeting
+"hello shop chat",greeting
+"hey shop chat",greeting
+"hi service bot",greeting
+"hello service bot",greeting
+"hey service bot",greeting
+"hi support",greeting
+"hello support",greeting
+"hey support",greeting
+"hi chat",greeting
+"hello chat",greeting
+"hey chat",greeting
+"hi there human",greeting
+"hello there human",greeting
+"hey there human",greeting
+"hi machine",greeting
+"hello machine",greeting
+"hey machine",greeting
+"hi buddy!",greeting
+"hey buddy!",greeting
+"hello buddy!",greeting
+"hi online assistant",greeting
+"hey online assistant",greeting
+"hello online assistant",greeting
+"hi again assistant",greeting
+"hello again assistant",greeting
+"hi again bot",greeting
+"hello again bot",greeting
+"hey again bot",greeting
+"hi there again",greeting
+"hello there again",greeting
+"hey there again",greeting
+"hello support team",greeting
+"hi support team",greeting
+"hey support team",greeting
+"hi customer help",greeting
+"hello customer help",greeting
+"hey customer help",greeting
+"greetings assistant",greeting
+"greetings bot",greeting
+"greetings support",greeting
+"hi genius",greeting
+"hello genius",greeting
+"hey genius",greeting
+"hi partner",greeting
+"hello partner",greeting
+"hey partner",greeting
+"hi my guy",greeting
+"hello my guy",greeting
+"hey my guy",greeting
+"hi fam",greeting
+"hello fam",greeting
+"hey fam",greeting
+"hi legend",greeting
+"hello legend",greeting
+"hey legend",greeting
+"hi chat assistant",greeting
+"hello chat assistant",greeting
+"hey chat assistant",greeting
+"hi chat service",greeting
+"hello chat service",greeting
+"hey chat service",greeting
+"hi smart bot",greeting
+"hello smart bot",greeting
+"hey smart bot",greeting
+"hi helpful bot",greeting
+"hello helpful bot",greeting
+"hey helpful bot",greeting
+"hi store assistant",greeting
+"hello store assistant",greeting
+"hey store assistant",greeting
+"hi ecom bot",greeting
+"hello ecom bot",greeting
+"hey ecom bot",greeting
+"hi online bot",greeting
+"hello online bot",greeting
+"hey online bot",greeting
+
+"bye",goodbye
+"goodbye",goodbye
+"see you",goodbye
+"see you later",goodbye
+"talk to you later",goodbye
+"thanks bye",goodbye
+"ok bye",goodbye
+"bye bot",goodbye
+"bye assistant",goodbye
+"bye friend",goodbye
+"bye buddy",goodbye
+"good night",goodbye
+"goodbye assistant",goodbye
+"see ya",goodbye
+"take care",goodbye
+"catch you later",goodbye
+"farewell",goodbye
+"i'm leaving",goodbye
+"logging out",goodbye
+"see you soon",goodbye
+"bye now",goodbye
+"bye for now",goodbye
+"gotta go",goodbye
+"gtg",goodbye
+"ok i'm leaving",goodbye
+"talk soon",goodbye
+"have a nice day",goodbye
+"have a good day",goodbye
+"bye shopsmart",goodbye
+"bye chatbot",goodbye
+"bye service",goodbye
+"bye support",goodbye
+"goodbye shopsmart",goodbye
+"goodbye chatbot",goodbye
+"goodbye service",goodbye
+"goodbye support",goodbye
+"okay bye",goodbye
+"i'll go now",goodbye
+"that's all bye",goodbye
+"alright bye",goodbye
+"okay thanks bye",goodbye
+"alright thanks bye",goodbye
+"bye dear",goodbye
+"bye my friend",goodbye
+"goodbye my friend",goodbye
+"bye again",goodbye
+"goodbye again",goodbye
+"bye take care",goodbye
+"goodbye take care",goodbye
+"bye assistant!",goodbye
+"goodbye assistant!",goodbye
+"bye bot!",goodbye
+"goodbye bot!",goodbye
+"see you tomorrow",goodbye
+"talk to you soon",goodbye
+"i'll chat later",goodbye
+"bye for today",goodbye
+"bye human",goodbye
+"bye machine",goodbye
+"goodbye human",goodbye
+"goodbye machine",goodbye
+"thanks that’s all",goodbye
+"thanks that’s it bye",goodbye
+"bye bro",goodbye
+"bye dude",goodbye
+"bye mate",goodbye
+"bye pal",goodbye
+"goodbye bro",goodbye
+"goodbye dude",goodbye
+"see you chat",goodbye
+"talk next time",goodbye
+"until next time",goodbye
+"i'm done bye",goodbye
+"bye helpful bot",goodbye
+"bye smart bot",goodbye
+"goodbye helper",goodbye
+"goodbye assistant bot",goodbye
+"bye store assistant",goodbye
+"bye ecom bot",goodbye
+"bye online bot",goodbye
+"bye chat assistant",goodbye
+"bye chat service",goodbye
+"bye customer support",goodbye
+"thanks for help bye",goodbye
+"thank you bye",goodbye
+"bye kind bot",goodbye
+"bye store help",goodbye
+"i’m out",goodbye
+"bye folks",goodbye
+"alright i'm going",goodbye
+"bye chatter",goodbye
+"bye service bot",goodbye
+"bye support team",goodbye
+"bye partner",goodbye
+"bye legend",goodbye
+"bye genius",goodbye
+"bye fam",goodbye
+"bye my guy",goodbye
+"goodbye team",goodbye
+"goodbye friend",goodbye
+"goodbye fam",goodbye
+"peace out",goodbye
+"i'm signing off",goodbye
+"i'm disconnecting",goodbye
+"end chat",goodbye
+"stop chat",goodbye
+"that's enough bye",goodbye
+"i'm done talking",goodbye
+"closing chat",goodbye
+"bye boss",goodbye
+"bye hero",goodbye
+"bye champ",goodbye
+"goodbye champ",goodbye
+"bye king",goodbye
+"bye queen",goodbye
+"bye shop chat",goodbye
+"bye again bot",goodbye
+"goodbye again bot",goodbye
+"time to go",goodbye
+"bye bye!",goodbye
+"bye!",goodbye
+"ciao",goodbye
+"sayonara",goodbye
+"adios",goodbye
+"bye shopper bot",goodbye
+"bye commerce bot",goodbye
+"bye helper bot",goodbye
+"goodbye shopper bot",goodbye
+"leaving now",goodbye
+"conversation over",goodbye
+"chat over",goodbye
+"i'm done bye",goodbye
+"bye till next time",goodbye
+"i appreciate it bye",goodbye
+"bye bot see you",goodbye
+"thanks see you",goodbye
+"see you buddy",goodbye
+"later buddy",goodbye
+"later friend",goodbye
+"catch you next time",goodbye
+"bye professional bot",goodbye
+"bye retail bot",goodbye
+"closing this now",goodbye
+"okay i'm heading out",goodbye
+"bye leader",goodbye
+"bye service assistant",goodbye
+"bye online assistant",goodbye
+"bye brilliant bot",goodbye
+"bye machine friend",goodbye
+"goodbye machine friend",goodbye
+"i will go now",goodbye
+"bye till later",goodbye
+"heading out bye",goodbye
+"bye for good",goodbye
+"that’s it bye",goodbye
+"i'm signing out",goodbye
+"goodbye chat!",goodbye
+"bye system",goodbye
+
+
 "what can you help me with?", other
 "tell me something interesting", other
 "i have a question", other
