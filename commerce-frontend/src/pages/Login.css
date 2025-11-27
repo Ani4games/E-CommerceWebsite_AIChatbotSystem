@@ -75,3 +75,11 @@
 .login-btn:hover {
   background: #005fcc;
 }
+.login-page {
+  min-height: calc(100vh - 120px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fa;
+  padding: 40px;
+}
